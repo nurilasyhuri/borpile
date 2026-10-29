@@ -1,0 +1,132 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { getCollection } from 'astro:content';
+
+const allArticles = await getCollection('artikel');
+// Sort by publish date descending
+const articles = allArticles.sort(
+  (a, b) => new Date(b.data.publishDate).getTime() - new Date(a.data.publishDate).getTime()
+);
+---
+
+<Layout
+  title="Artikel dan Panduan Teknik Bor Pile Malang - Pondasi Mandiri"
+  description="Kumpulan artikel teknis, panduan geoteknik, metode wash boring, dry system, dan silent jacking pile tiang bor dari spesialis pondasi terpercaya di Malang."
+>
+  <Header />
+
+  <main class="min-h-screen bg-mechline-surface py-12 md:py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Breadcrumb & Header -->
+      <nav class="flex items-center gap-2 text-xs text-neutral-500 mb-6 font-medium">
+        <a href="/" class="hover:text-mechline-blue transition-colors">Beranda</a>
+        <span>/</span>
+        <span class="text-mechline-dark font-bold">Artikel & Panduan</span>
+      </nav>
+
+      <div class="max-w-3xl mb-12">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-mechline-blue/10 text-mechline-blue text-xs font-bold uppercase tracking-wider mb-3">
+          Edukasi & Rekayasa Geoteknik Malang
+        </div>
+        <h1 class="font-heading text-3xl sm:text-5xl font-extrabold text-mechline-dark tracking-tight leading-tight mb-4">
+          Panduan Praktis & Standar Teknik Pondasi Dalam
+        </h1>
+        <p class="text-base text-mechline-gray leading-relaxed">
+          Kumpulan rujukan teknis terstandarisasi mengenai metode pengeboran bore pile, mitigasi getaran pemukiman, analisis uji sondir CPT, dan tata kelola limbah konstruksi di kawasan Malang Raya.
+        </p>
+      </div>
+
+      <!-- Articles Grid (7 Articles) -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+        {articles.map((item) => (
+          <article class="bg-white rounded-2xl border border-neutral-200/90 overflow-hidden shadow-xs hover:shadow-md transition flex flex-col justify-between group">
+            <div>
+              <!-- Hero Image Container -->
+              <a href={`/artikel/${item.slug}/`} class="block aspect-video overflow-hidden bg-neutral-100 relative">
+                <img
+                  src={item.data.heroImage}
+                  alt={`Ilustrasi teknis ${item.data.title}`}
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  loading="lazy"
+                />
+                <span class="absolute top-3 left-3 px-2.5 py-1 rounded-md bg-black/75 backdrop-blur-xs text-white text-[10px] font-bold uppercase tracking-wider">
+                  {item.data.category}
+                </span>
+              </a>
+
+              <!-- Card Content -->
+              <div class="p-6">
+                <div class="text-[11px] text-neutral-400 font-medium mb-2 flex items-center gap-2">
+                  <time datetime={item.data.publishDate}>{item.data.publishDate}</time>
+                  <span>•</span>
+                  <span>{item.data.author}</span>
+                </div>
+
+                <h2 class="font-heading text-lg font-bold text-mechline-dark group-hover:text-mechline-blue transition-colors leading-snug mb-3">
+                  <a href={`/artikel/${item.slug}/`}>
+                    {item.data.title}
+                  </a>
+                </h2>
+
+                <p class="text-xs text-neutral-600 leading-relaxed line-clamp-3 mb-4">
+                  {item.data.description}
+                </p>
+
+                <!-- Clean Editorial Tags (No Heavy Chips) -->
+                <div class="text-[11px] text-neutral-500 flex flex-wrap gap-x-2 gap-y-1">
+                  <span class="font-semibold text-neutral-700">Tag:</span>
+                  {item.data.tags.map((tag) => (
+                    <span class="hover:text-mechline-blue transition-colors">#{tag}</span>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            <!-- Footer Action -->
+            <div class="px-6 py-4 bg-neutral-50 border-t border-neutral-100">
+              <a
+                href={`/artikel/${item.slug}/`}
+                class="inline-flex items-center gap-1.5 text-xs font-bold text-mechline-blue hover:text-mechline-blue-hover transition"
+              >
+                <span>Baca Artikel Lengkap</span>
+                <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                  <path d="M5 12h14m-7-7 7 7-7 7"/>
+                </svg>
+              </a>
+            </div>
+
+          </article>
+        ))}
+      </div>
+
+      <!-- Quick Bottom Consultation Banner -->
+      <div class="rounded-2xl bg-mechline-dark text-white p-8 md:p-10 flex flex-col md:flex-row items-center justify-between gap-6">
+        <div>
+          <h3 class="font-heading text-xl sm:text-2xl font-bold tracking-tight mb-2">
+            Butuh Rekomendasi Spesifikasi Tiang Bor untuk Lahan Anda?
+          </h3>
+          <p class="text-sm text-neutral-300 max-w-xl">
+            Konsultasikan hasil uji sondir tanah atau denah rencana titik kolom proyek Anda di Malang langsung bersama tim estimator kami.
+          </p>
+        </div>
+        <a
+          href="https://wa.me/6285183005070?text=Halo%20Pondasi%20Mandiri,%20saya%20ingin%20konsultasi%20spesifikasi%20tiang%20bor%20setelah%20membaca%20artikel%20website"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="shrink-0 px-6 py-3 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs sm:text-sm tracking-wide shadow-md transition-all flex items-center gap-2"
+        >
+          <span>Konsultasi WA: 0851-8300-5070</span>
+          <svg class="w-4 h-4 fill-currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.698c.969.54 1.767.828 2.796.828h.005c3.181 0 5.767-2.587 5.768-5.766 0-3.18-2.586-5.766-5.768-5.766zm9.969 5.766c0 5.514-4.486 10-10 10-1.708 0-3.32-.43-4.743-1.189l-5.257 1.378 1.4-5.118c-.85-1.488-1.341-3.21-1.341-5.043 0-5.514 4.486-10 10-10s10 4.486 10 10z"/>
+          </svg>
+        </a>
+      </div>
+
+    </div>
+  </main>
+
+  <Footer />
+</Layout>
