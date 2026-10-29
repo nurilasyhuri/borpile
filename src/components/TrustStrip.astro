@@ -1,0 +1,46 @@
+---
+const trustItems = [
+  {
+    title: "Armada Heavy-Duty Sendiri",
+    desc: "Bukan perantara/calo. Unit siap mobilisasi cepat dari workshop Buring ke seluruh lokasi proyek di Malang.",
+    icon: `<path d="M10 17h4V5H2v12h3m11 0h2a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2h-2m-4 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm10 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"/>`
+  },
+  {
+    title: "Free Survei & Analisis Tanah",
+    desc: "Bantuan evaluasi laporan Sondir/SPT untuk menentukan elevasi tanah keras di area Malang.",
+    icon: `<path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>`
+  },
+  {
+    title: "Transparansi Opname Riil",
+    desc: "Pengukuran kedalaman riil bersama per lubang bor. Tanpa manipulasi volume.",
+    icon: `<rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/>`
+  },
+  {
+    title: "K3 Lingkungan & Garansi Struktur",
+    desc: "100% aman untuk bangunan tetangga dengan fasilitas uji PIT dan PDA mandiri.",
+    icon: `<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>`
+  }
+];
+---
+
+<section class="py-10 bg-white border-b border-mechline-border">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      {trustItems.map((item) => (
+        <div class="p-5 rounded-xl bg-mechline-card border border-neutral-300/60 flex items-start gap-3.5 hover:bg-[#e4e4e4] transition-colors">
+          <div class="w-10 h-10 rounded-lg bg-white border border-neutral-300 flex items-center justify-center text-mechline-dark shrink-0">
+            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" set:html={item.icon} />
+          </div>
+          <div>
+            <h3 class="font-heading font-bold text-xs text-mechline-dark mb-1 leading-snug">
+              {item.title}
+            </h3>
+            <p class="text-[11px] text-mechline-gray leading-relaxed">
+              {item.desc}
+            </p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,63 @@
+---
+const badges = [
+  {
+    title: "Bore Pile Hydraulic Rig",
+    spec: "Dia 50–120 cm / s.d 45m",
+    role: "Gedung & Jembatan Heavy Duty",
+    icon: `<path d="M12 2v6m-6 0h12m-9 0 2 10 3 4 3-4 2-10"/><path d="M7 12h10m-8 4h6"/>`
+  },
+  {
+    title: "Wash Boring Mini Crane",
+    spec: "Dia 30–80 cm / s.d 30m",
+    role: "Ruko & Akses Jalan Sempit",
+    icon: `<path d="M4 18h16M7 18V6a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12M10 10h4"/>`
+  },
+  {
+    title: "Mini Hydraulic Dry Rig",
+    spec: "Dia 35–100 cm / s.d 20m",
+    role: "Zero Lumpur / Area Basement",
+    icon: `<rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6v6H9z"/>`
+  },
+  {
+    title: "Silent Jacking HSPD",
+    spec: "Tiang 20x20 s.d 40x40 cm",
+    role: "Pancang Tekan 0% Getaran",
+    icon: `<path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>`
+  },
+  {
+    title: "Truk Tangki Vacuum",
+    spec: "Kapasitas 4.000–6.000 Liter",
+    role: "Limbah Lumpur Dibuang Legal",
+    icon: `<rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/>`
+  },
+  {
+    title: "Pengujian PIT & PDA",
+    spec: "SNI 8460:2017 & ASTM D4945",
+    role: "Sertifikasi Integritas Tiang",
+    icon: `<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>`
+  }
+];
+---
+
+<section class="py-10 bg-white border-b border-mechline-border">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4">
+      {badges.map((b) => (
+        <div class="p-4 rounded-xl bg-mechline-surface border border-neutral-200/90 text-center flex flex-col items-center justify-center hover:border-black hover:bg-neutral-50 transition-all duration-200 group">
+          <div class="w-10 h-10 rounded-lg bg-white border border-neutral-200 flex items-center justify-center text-mechline-dark group-hover:text-mechline-blue group-hover:border-mechline-blue transition-colors mb-2.5">
+            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" set:html={b.icon} />
+          </div>
+          <h3 class="font-heading font-bold text-xs text-mechline-dark group-hover:text-mechline-blue transition-colors leading-tight mb-1">
+            {b.title}
+          </h3>
+          <span class="text-[11px] text-mechline-dark font-medium block">
+            {b.spec}
+          </span>
+          <span class="text-[10px] text-neutral-500 block mt-0.5">
+            {b.role}
+          </span>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

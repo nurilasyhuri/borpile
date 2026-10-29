@@ -1,0 +1,169 @@
+---
+const catalogItems = [
+  {
+    title: "Wash Boring Mini Crane System",
+    category: "Bore Pile Basah (Ruko & Hunian)",
+    diaSwatches: ["30cm", "40cm", "50cm", "60cm", "80cm"],
+    status: "Unit Ready Pool Malang",
+    desc: "Metode sirkulasi air wash boring untuk tanah lempung dan akses jalan perkotaan 3–4 meter di Malang.",
+    img: "/images/machine-minicrane.webp"
+  },
+  {
+    title: "Hydraulic Drilling Rig Heavy Duty",
+    category: "Pondasi Gedung & Infrastruktur",
+    diaSwatches: ["50cm", "60cm", "80cm", "100cm", "120cm"],
+    status: "Kapasitas Heavy Duty",
+    desc: "Unit Sany / XCMG torsi tinggi. Menembus lapisan tanah cadas keras s.d kedalaman 45 meter.",
+    img: "/images/machine-rig.webp"
+  },
+  {
+    title: "Mini Hydraulic Dry Auger System",
+    category: "Metode Kering (Zero Lumpur)",
+    diaSwatches: ["35cm", "40cm", "50cm", "80cm", "100cm"],
+    status: "Bebas Lumpur / Clean Site",
+    desc: "Pengeboran kering mata auger tanpa air kerja. Sangat bersih untuk area basement & pabrik aktif.",
+    img: "/images/machine-minihydraulic.webp"
+  },
+  {
+    title: "Silent Jacking Pile (HSPD Tekan)",
+    category: "Tiang Pancang Hidrolik Bebas Bising",
+    diaSwatches: ["20x20", "25x25", "30x30", "40x40"],
+    status: "0% Getaran Merambat",
+    desc: "Menekan tiang pancang presisi dengan hidrolik 120–400 Ton tanpa pukulan hammer dan ramah lingkungan.",
+    img: "/images/machine-hspd.webp"
+  },
+  {
+    title: "Armada Truk Tangki Vacuum Lumpur",
+    category: "Pengelolaan Limbah Lumpur Mandiri",
+    diaSwatches: ["4.000L", "5.000L", "6.000L"],
+    status: "Sedot Lumpur Tertutup",
+    desc: "Sedot lumpur cair langsung dari bak sirkulasi dan dibuang ke disposal area berizin resmi.",
+    img: "/images/machine-vacuum.webp"
+  },
+  {
+    title: "Strauss Pile Manual (Akses Sempit)",
+    category: "Pondasi Manual Gang & Lorong",
+    diaSwatches: ["20cm", "25cm", "30cm", "40cm"],
+    status: "Khusus Akses Sempit",
+    desc: "Pengeboran tenaga manusia untuk renovasi rumah dalam gang tanpa akses mobilisasi alat berat.",
+    img: "/images/machine-strauss.webp"
+  },
+  {
+    title: "Pengecoran Pipa Tremi Berstandar",
+    category: "Pengecoran Beton Anti Keropos",
+    diaSwatches: ["Pipa 6 inch", "Pipa 8 inch", "Slump 18±2"],
+    status: "Pengecoran Kontinyu SNI",
+    desc: "Beton cor ready mix dituangkan kontinyu melalui pipa tremi dari dasar lubang bor menghindari segregasi.",
+    img: "/images/machine-tremie.webp"
+  },
+  {
+    title: "Pengujian Integritas PIT & PDA Test",
+    category: "Uji Teknis Laboratorium Geoteknik",
+    diaSwatches: ["PIT Test", "PDA Test", "Sondir CPT"],
+    status: "Sertifikasi Daya Dukung",
+    desc: "Pengujian integritas gelombang rendah (PIT) dan uji beban dinamik (PDA) bersama tenaga ahli berlisensi.",
+    img: "/images/machine-pda.webp"
+  }
+];
+---
+
+<section id="layanan" class="py-16 md:py-24 bg-white border-b border-mechline-border">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+    <!-- Section Title (No colored spans inside h2) -->
+    <div class="flex flex-col sm:flex-row sm:items-end justify-between mb-12 gap-4">
+      <div>
+        <h2 class="font-heading text-2xl sm:text-4xl font-extrabold text-mechline-dark tracking-tight mb-2">
+          Katalog Armada & Spesifikasi Mesin Pondasi
+        </h2>
+        <p class="text-sm sm:text-base text-mechline-gray max-w-2xl">
+          Pilihan metode pengeboran dan pemancangan presisi sesuai karakter tanah dan kondisi akses lokasi proyek Anda di Malang.
+        </p>
+      </div>
+      <a
+        href="https://wa.me/6285183005070?text=Halo%20Pondasi%20Mandiri,%20saya%20ingin%20konsultasi%20armada%20mesin%20bor%20pile"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="text-xs font-semibold text-mechline-blue hover:text-mechline-blue-hover uppercase tracking-wider inline-flex items-center gap-1.5 shrink-0 self-start sm:self-auto"
+      >
+        <span>Konsultasi WA: 0851-8300-5070</span>
+        <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+          <path d="M5 12h14m-7-7 7 7-7 7"/>
+        </svg>
+      </a>
+    </div>
+
+    <!-- 4-Column Product Catalog Grid (Mechline Wheel Grid Format - NO PRICES) -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      {catalogItems.map((item) => (
+        <div class="group bg-white rounded-xl border border-neutral-200/90 overflow-hidden flex flex-col justify-between hover:shadow-lg transition-all duration-300">
+          
+          <!-- Image Container on Clean Light Canvas -->
+          <div>
+            <div class="aspect-square bg-mechline-surface p-4 flex items-center justify-center relative overflow-hidden">
+              <img
+                src={item.img}
+                alt={item.title}
+                class="w-full h-full object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
+                loading="lazy"
+              />
+              <div class="absolute top-3 left-3">
+                <span class="px-2 py-0.5 text-[10px] font-semibold bg-white/90 backdrop-blur-xs text-neutral-800 rounded border border-neutral-200">
+                  Ready Unit
+                </span>
+              </div>
+            </div>
+
+            <!-- Content Details -->
+            <div class="p-4 space-y-2.5">
+              
+              <!-- Variant Swatches Pills -->
+              <div class="flex flex-wrap gap-1">
+                {item.diaSwatches.map((swatch) => (
+                  <span class="px-2 py-0.5 text-[10px] font-medium bg-neutral-100 text-neutral-700 rounded border border-neutral-200">
+                    {swatch}
+                  </span>
+                ))}
+              </div>
+
+              <!-- Title & Category -->
+              <div>
+                <h3 class="font-heading font-bold text-sm text-mechline-dark group-hover:text-mechline-blue transition-colors leading-snug">
+                  {item.title}
+                </h3>
+                <span class="text-[11px] text-neutral-500 block mt-0.5">
+                  {item.category}
+                </span>
+              </div>
+
+              <!-- Status Badge (No Price) -->
+              <div class="pt-1">
+                <span class="inline-block text-[11px] font-semibold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">
+                  {item.status}
+                </span>
+              </div>
+
+              <p class="text-[11px] text-mechline-gray leading-relaxed line-clamp-2">
+                {item.desc}
+              </p>
+            </div>
+          </div>
+
+          <!-- Bottom Action Button (Direct WA) -->
+          <div class="p-4 pt-0">
+            <a
+              href={`https://wa.me/6285183005070?text=${encodeURIComponent('Halo Pondasi Mandiri, saya ingin konsultasi layanan: ' + item.title)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="block w-full py-2.5 px-4 rounded-md bg-mechline-dark hover:bg-black text-white text-xs font-semibold text-center uppercase tracking-wider transition duration-200"
+            >
+              Konsultasi Armada via WA
+            </a>
+          </div>
+
+        </div>
+      ))}
+    </div>
+
+  </div>
+</section>

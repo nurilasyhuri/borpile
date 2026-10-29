@@ -1,0 +1,261 @@
+---
+const serviceLinks = [
+  {
+    title: "Bore Pile Hydraulic Rig",
+    desc: "Pondasi gedung & tiang dia 50–120 cm",
+    href: "#layanan",
+    badge: "Heavy Duty"
+  },
+  {
+    title: "Wash Boring Mini Crane",
+    desc: "Akses jalan sempit 3m, ruko & hunian",
+    href: "#layanan",
+    badge: "Populer"
+  },
+  {
+    title: "Mini Hydraulic Dry System",
+    desc: "Metode kering bersih untuk basement & pabrik",
+    href: "#layanan",
+    badge: "Zero Lumpur"
+  },
+  {
+    title: "Silent Jacking Pile (HSPD)",
+    desc: "Pancang tekan hidrolik bebas bising & getaran",
+    href: "#layanan",
+    badge: "Bebas Retak"
+  },
+  {
+    title: "Truk Tangki Vacuum Lumpur",
+    desc: "Penyedotan & pembuangan limbah berizin",
+    href: "#layanan",
+    badge: "Armada Sendiri"
+  },
+  {
+    title: "Uji Sondir & Geoteknik SPT",
+    desc: "Analisis daya dukung tanah & elevasi keras",
+    href: "#layanan",
+    badge: "Data Akurat"
+  }
+];
+---
+
+<header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-neutral-200">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16 sm:h-20">
+      
+      <!-- Logo Perusahaan (Kiri) -->
+      <a href="/" class="flex items-center gap-3 group">
+        <div class="w-10 h-10 rounded-lg bg-mechline-dark flex items-center justify-center text-white font-heading font-black text-sm tracking-wider">
+          PM
+        </div>
+        <div>
+          <span class="font-heading font-black text-lg sm:text-xl tracking-wider uppercase text-mechline-dark group-hover:text-mechline-blue transition-colors block leading-tight">
+            PONDASI MANDIRI
+          </span>
+          <span class="text-[10px] tracking-widest uppercase text-neutral-500 font-semibold block">
+            Bore Pile & Pancang Malang
+          </span>
+        </div>
+      </a>
+
+      <!-- Menu Navigasi Sesuai Permintaan: BERANDA, LAYANAN (Dropdown), PANDUAN, CONTACT -->
+      <nav class="hidden md:flex items-center gap-7 text-xs font-bold uppercase tracking-wider text-neutral-800">
+        
+        <!-- 1. BERANDA -->
+        <a href="/" class="hover:text-mechline-blue transition-colors py-2">
+          BERANDA
+        </a>
+
+        <!-- 2. LAYANAN (Dropdown) -->
+        <div class="relative group" id="desktop-dropdown-container">
+          <button
+            type="button"
+            id="desktop-dropdown-toggle"
+            class="inline-flex items-center gap-1.5 py-2 hover:text-mechline-blue transition-colors focus:outline-none cursor-pointer uppercase tracking-wider font-bold"
+            aria-expanded="false"
+            aria-haspopup="true"
+          >
+            <span>LAYANAN</span>
+            <svg
+              class="w-3.5 h-3.5 text-neutral-400 group-hover:text-mechline-blue transition-transform duration-200 group-hover:rotate-180"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2.5"
+              aria-hidden="true"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+
+          <!-- Dropdown Panel (Hover & Focus Support) -->
+          <div
+            id="desktop-dropdown-menu"
+            class="absolute left-0 top-full pt-2 w-80 opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto group-focus-within:opacity-100 group-focus-within:pointer-events-auto transition-all duration-150 z-50 normal-case tracking-normal"
+          >
+            <div class="bg-white rounded-xl shadow-xl border border-neutral-200/90 p-2 space-y-1">
+              {serviceLinks.map((item) => (
+                <a
+                  href={item.href}
+                  class="flex items-start justify-between gap-2 p-2.5 rounded-lg hover:bg-neutral-50 transition-colors group/item"
+                >
+                  <div>
+                    <div class="text-xs font-bold text-mechline-dark group-hover/item:text-mechline-blue transition-colors">
+                      {item.title}
+                    </div>
+                    <div class="text-[11px] text-neutral-500 line-clamp-1">
+                      {item.desc}
+                    </div>
+                  </div>
+                  <span class="text-[9px] font-semibold uppercase px-1.5 py-0.5 rounded bg-neutral-100 text-neutral-600 border border-neutral-200 shrink-0">
+                    {item.badge}
+                  </span>
+                </a>
+              ))}
+
+              <div class="pt-2 mt-1 border-t border-neutral-100">
+                <a
+                  href="#layanan"
+                  class="block py-1.5 px-2 text-center text-xs font-bold text-mechline-blue hover:text-mechline-blue-hover transition"
+                >
+                  Lihat Semua Spesifikasi Armada →
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. PANDUAN -->
+        <a href="#panduan" class="hover:text-mechline-blue transition-colors py-2">
+          PANDUAN
+        </a>
+
+        <!-- 4. CONTACT -->
+        <a href="#kontak" class="hover:text-mechline-blue transition-colors py-2">
+          CONTACT
+        </a>
+
+      </nav>
+
+      <!-- Tombol WhatsApp Resmi (Kanan) -->
+      <div class="flex items-center gap-3">
+        <a
+          href="https://wa.me/6285183005070?text=Halo%20Pondasi%20Mandiri,%20saya%20ingin%20konsultasi%20kebutuhan%20bor%20pile%20di%20Malang"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-2 px-4 sm:px-5 py-2 sm:py-2.5 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white text-xs sm:text-sm font-semibold shadow-xs transition-all"
+        >
+          <svg class="w-4 h-4 fill-currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.698c.969.54 1.767.828 2.796.828h.005c3.181 0 5.767-2.587 5.768-5.766 0-3.18-2.586-5.766-5.768-5.766zm9.969 5.766c0 5.514-4.486 10-10 10-1.708 0-3.32-.43-4.743-1.189l-5.257 1.378 1.4-5.118c-.85-1.488-1.341-3.21-1.341-5.043 0-5.514 4.486-10 10-10s10 4.486 10 10z"/>
+          </svg>
+          <span class="hidden sm:inline">WhatsApp:</span>
+          <span>0851-8300-5070</span>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button
+          type="button"
+          id="mobile-nav-toggle"
+          class="md:hidden p-2 text-neutral-700 hover:text-mechline-blue focus:outline-none"
+          aria-label="Buka Menu"
+        >
+          <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile Dropdown Navigation -->
+    <div id="mobile-menu" class="hidden md:hidden pb-4 pt-2 border-t border-neutral-200 text-xs font-bold uppercase tracking-wider space-y-2">
+      <!-- 1. BERANDA -->
+      <a href="/" class="mobile-nav-link block py-2 text-neutral-800 hover:text-mechline-blue">
+        BERANDA
+      </a>
+
+      <!-- 2. LAYANAN Collapsible -->
+      <div>
+        <button
+          type="button"
+          id="mobile-services-toggle"
+          class="flex items-center justify-between w-full py-2 text-neutral-800 font-bold hover:text-mechline-blue uppercase tracking-wider"
+        >
+          <span>LAYANAN</span>
+          <svg id="mobile-services-icon" class="w-4 h-4 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div id="mobile-services-list" class="hidden pl-3 py-1 space-y-1 border-l-2 border-neutral-200 ml-1 normal-case tracking-normal">
+          {serviceLinks.map((item) => (
+            <a
+              href={item.href}
+              class="mobile-nav-link block py-1.5 text-xs text-neutral-600 hover:text-mechline-blue"
+            >
+              {item.title}
+            </a>
+          ))}
+          <a
+            href="#layanan"
+            class="mobile-nav-link block py-1.5 text-xs font-semibold text-mechline-blue"
+          >
+            Lihat Semua Layanan →
+          </a>
+        </div>
+      </div>
+
+      <!-- 3. PANDUAN -->
+      <a href="#panduan" class="mobile-nav-link block py-2 text-neutral-800 hover:text-mechline-blue">
+        PANDUAN
+      </a>
+
+      <!-- 4. CONTACT -->
+      <a href="#kontak" class="mobile-nav-link block py-2 text-neutral-800 hover:text-mechline-blue">
+        CONTACT
+      </a>
+
+      <div class="pt-2 border-t border-neutral-100 normal-case tracking-normal">
+        <a
+          href="https://wa.me/6285183005070?text=Halo%20Pondasi%20Mandiri,%20saya%20ingin%20konsultasi%20kebutuhan%20bor%20pile%20di%20Malang"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="block py-2 text-center rounded-lg bg-emerald-600 text-white font-bold text-xs"
+        >
+          Chat WhatsApp: 0851-8300-5070
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<script>
+  // Mobile Nav Toggle
+  const toggle = document.getElementById('mobile-nav-toggle');
+  const menu = document.getElementById('mobile-menu');
+  if (toggle && menu) {
+    toggle.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+  }
+
+  // Mobile Services Accordion Toggle
+  const servicesToggle = document.getElementById('mobile-services-toggle');
+  const servicesList = document.getElementById('mobile-services-list');
+  const servicesIcon = document.getElementById('mobile-services-icon');
+  if (servicesToggle && servicesList && servicesIcon) {
+    servicesToggle.addEventListener('click', () => {
+      const isClosed = servicesList.classList.toggle('hidden');
+      servicesIcon.style.transform = isClosed ? 'rotate(0deg)' : 'rotate(180deg)';
+    });
+  }
+
+  // Close mobile menu on link click
+  const mobileLinks = document.querySelectorAll('.mobile-nav-link');
+  mobileLinks.forEach((link) => {
+    link.addEventListener('click', () => {
+      if (menu && !menu.classList.contains('hidden')) {
+        menu.classList.add('hidden');
+      }
+    });
+  });
+</script>

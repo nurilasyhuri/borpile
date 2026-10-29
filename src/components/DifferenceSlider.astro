@@ -1,0 +1,146 @@
+---
+---
+
+<section id="perbedaan" class="py-16 md:py-24 bg-white border-b border-mechline-border">
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    
+    <!-- Heading (No colored spans inside h2) -->
+    <h2 class="font-heading text-2xl sm:text-4xl font-extrabold text-mechline-dark tracking-tight mb-4">
+      See the Pondasi Mandiri difference
+    </h2>
+    <p class="text-sm sm:text-base text-mechline-gray max-w-2xl mx-auto mb-10 leading-relaxed font-normal">
+      Bandingkan risiko metode tiang pancang hammer konvensional dengan teknologi Bore Pile & armada tangki vacuum Pondasi Mandiri. Geser slider untuk melihat pembuktian langsung di lapangan.
+    </p>
+
+    <!-- Before / After Interactive Split Comparison Container (Mechline Signature) -->
+    <div class="relative w-full max-w-4xl mx-auto aspect-[16/9] sm:aspect-[21/9] rounded-2xl overflow-hidden border border-neutral-300 shadow-sm select-none" id="diff-slider-container">
+      
+      <!-- Right Image / After: Pondasi Mandiri Clean Modern Rig -->
+      <img
+        src="/images/after-borepile.webp"
+        alt="Metode Bore Pile Modern Pondasi Mandiri Bersih dan Bebas Getaran"
+        class="absolute inset-0 w-full h-full object-cover pointer-events-none"
+      />
+      <div class="absolute inset-0 bg-neutral-900/10 pointer-events-none"></div>
+      
+      <!-- After Tag Label (Bottom Right on Mobile, Top Right on Desktop) -->
+      <div class="absolute bottom-3 sm:bottom-auto sm:top-4 right-3 sm:right-4 z-20 pointer-events-none">
+        <span class="px-2.5 sm:px-3.5 py-1 sm:py-1.5 rounded-full bg-mechline-blue text-white text-[10px] sm:text-xs font-bold shadow-md uppercase tracking-wider">
+          Pondasi Mandiri (Modern)
+        </span>
+      </div>
+
+      <!-- After Specs Overlay (Desktop only) -->
+      <div class="absolute bottom-4 right-4 z-20 pointer-events-none text-right hidden md:block">
+        <div class="bg-black/80 backdrop-blur-md text-white text-[11px] p-3 rounded-lg border border-white/20 space-y-1">
+          <div class="font-bold text-emerald-400">✓ 0% Getaran Merambat</div>
+          <div>✓ Bebas Retak Tembok Tetangga</div>
+          <div>✓ Lumpur Masuk Truk Tangki</div>
+        </div>
+      </div>
+
+      <!-- Left Image / Before: Conventional / Grayscale Overlaid -->
+      <div class="absolute inset-0 overflow-hidden pointer-events-none" id="diff-before-wrapper" style="width: 50%;">
+        <img
+          src="/images/before-hammer.webp"
+          alt="Metode Konvensional Drop Hammer Rawan Keretakan dan Bising"
+          class="absolute inset-0 w-full h-full object-cover max-w-none"
+          id="diff-before-img"
+        />
+        <div class="absolute inset-0 bg-neutral-950/20"></div>
+
+        <!-- Before Tag Label (Top Left) -->
+        <div class="absolute top-3 sm:top-4 left-3 sm:left-4 z-20">
+          <span class="px-2.5 sm:px-3.5 py-1 sm:py-1.5 rounded-full bg-neutral-900 text-neutral-200 border border-neutral-700 text-[10px] sm:text-xs font-bold shadow-md uppercase tracking-wider">
+            Konvensional (Hammer)
+          </span>
+        </div>
+
+        <!-- Before Specs Overlay (Desktop only) -->
+        <div class="absolute bottom-4 left-4 z-20 text-left hidden md:block">
+          <div class="bg-black/80 backdrop-blur-md text-white text-[11px] p-3 rounded-lg border border-white/20 space-y-1">
+            <div class="font-bold text-rose-400">✗ Getaran Ekstrem Dinamis</div>
+            <div>✗ Risiko Tembok Retak & Komplain</div>
+            <div>✗ Lumpur Meluber Mengotori Jalan</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Draggable Divider Line & Pill Handle (Mechline "|||" Style) -->
+      <div
+        class="absolute top-0 bottom-0 z-30 cursor-ew-resize flex items-center justify-center -ml-[2px]"
+        id="diff-slider-handle"
+        style="left: 50%;"
+      >
+        <div class="w-[3px] h-full bg-white shadow-lg"></div>
+        <div class="absolute w-9 sm:w-11 h-9 sm:h-11 rounded-full bg-white text-mechline-dark shadow-xl border border-neutral-300 flex items-center justify-center font-bold tracking-widest text-[10px] sm:text-xs transform hover:scale-110 active:scale-95 transition-transform">
+          |||
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<script>
+  const container = document.getElementById('diff-slider-container');
+  const beforeWrapper = document.getElementById('diff-before-wrapper');
+  const beforeImg = document.getElementById('diff-before-img');
+  const handle = document.getElementById('diff-slider-handle');
+
+  let isDragging = false;
+
+  function updateSlider(x: number) {
+    if (!container || !beforeWrapper || !handle) return;
+    const rect = container.getBoundingClientRect();
+    let position = ((x - rect.left) / rect.width) * 100;
+    position = Math.max(0, Math.min(100, position));
+
+    beforeWrapper.style.width = `${position}%`;
+    handle.style.left = `${position}%`;
+
+    if (beforeImg) {
+      beforeImg.style.width = `${rect.width}px`;
+    }
+  }
+
+  function resizeBeforeImg() {
+    if (container && beforeImg) {
+      beforeImg.style.width = `${container.offsetWidth}px`;
+    }
+  }
+
+  window.addEventListener('resize', resizeBeforeImg);
+  resizeBeforeImg();
+
+  if (container && handle) {
+    container.addEventListener('mousedown', (e) => {
+      isDragging = true;
+      updateSlider(e.clientX);
+    });
+
+    window.addEventListener('mousemove', (e) => {
+      if (!isDragging) return;
+      updateSlider(e.clientX);
+    });
+
+    window.addEventListener('mouseup', () => {
+      isDragging = false;
+    });
+
+    container.addEventListener('touchstart', (e) => {
+      isDragging = true;
+      if (e.touches[0]) updateSlider(e.touches[0].clientX);
+    }, { passive: true });
+
+    window.addEventListener('touchmove', (e) => {
+      if (!isDragging) return;
+      if (e.touches[0]) updateSlider(e.touches[0].clientX);
+    }, { passive: true });
+
+    window.addEventListener('touchend', () => {
+      isDragging = false;
+    });
+  }
+</script>

@@ -1,0 +1,90 @@
+---
+const reasons = [
+  {
+    icon: "🚜",
+    title: "100% Armada Sendiri di Workshop",
+    desc: "Kami bukan makelar atau calo sewa alat. Seluruh unit mini crane, rotary rig, dan peralatan strauss pile adalah aset operasional mandiri, menjamin jadwal mobilisasi yang presisi dan harga langsung tangan pertama."
+  },
+  {
+    icon: "🏘️",
+    title: "Minim Getaran & Aman untuk Tetangga",
+    desc: "Pengeboran sistem bor pile tidak menimbulkan gelombang getaran ke tanah di sekelilingnya seperti sistem tiang pancang (drop hammer). Rumah atau bangunan tetangga di sebelah lokasi proyek dijamin tetap aman tanpa retak rambut."
+  },
+  {
+    icon: "🛣️",
+    title: "Solusi Akses Jalan & Gang Sempit",
+    desc: "Memiliki varian mesin mini crane dengan tapak roda kompak serta unit bor manual (strauss pile) yang dapat dibongkar pasang dan dibawa masuk melalui gang kecil selebar 1 meter."
+  },
+  {
+    icon: "📐",
+    title: "Pengecoran Standar SNI (Pipa Tremi)",
+    desc: "Kami menerapkan metode pengecoran tremi pipe secara ketat. Beton cor ready mix disalurkan langsung dari dasar lubang bor sehingga tidak tercampur dengan lumpur bor atau air tanah, menghasilkan tiang beton masif dan solid."
+  },
+  {
+    icon: "📋",
+    title: "Opname Kedalaman Transparan",
+    desc: "Setiap titik bor diukur bersama oleh tim pengawas proyek dan mandor kami sebelum tahap pembesian dan pengecoran. Anda hanya membayar volume meter lari riil yang dikerjakan di lapangan."
+  },
+  {
+    icon: "👷",
+    title: "Tenaga Kerja Terampil & Disiplin K3",
+    desc: "Didukung oleh operator rig, mandor pembesian, dan kru berpengalaman lebih dari 10 tahun yang telah mengantongi sertifikasi K3 Konstruksi untuk menjamin zero accident di lapangan."
+  }
+];
+---
+
+<section id="keunggulan" class="py-20 md:py-28 bg-slate-900 border-t border-slate-800">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs font-bold uppercase tracking-wider mb-4">
+        Kenapa Kontraktor Memilih Kami
+      </div>
+      <h2 class="font-display text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight mb-4">
+        Bekerja Tepat Waktu, Akurat, Tanpa Drama di Lapangan
+      </h2>
+      <p class="text-slate-400 text-base sm:text-lg">
+        Pondasi adalah penopang seluruh struktur bangunan Anda seumur hidup. Kami memastikan setiap meter pengeboran dikerjakan dengan integritas dan standar teknik sipil terbaik.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {reasons.map((r) => (
+        <div class="rounded-2xl bg-slate-950 p-8 border border-slate-800 hover:border-amber-500/40 transition-all group flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
+              {r.icon}
+            </div>
+            <h3 class="font-display text-xl font-bold text-white mb-3 group-hover:text-amber-400 transition-colors">
+              {r.title}
+            </h3>
+            <p class="text-slate-300 text-sm leading-relaxed">
+              {r.desc}
+            </p>
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <!-- Quick Callout Banner -->
+    <div class="mt-16 rounded-2xl bg-gradient-to-r from-amber-500 via-amber-400 to-amber-500 p-8 sm:p-10 text-slate-950 flex flex-col md:flex-row items-center justify-between gap-6 shadow-2xl">
+      <div>
+        <h3 class="text-2xl sm:text-3xl font-extrabold tracking-tight font-display mb-2">
+          Butuh Jadwal Survei Lokasi Hari Ini?
+        </h3>
+        <p class="text-slate-900 font-medium text-sm sm:text-base max-w-xl">
+          Tim engineering kami siap mengecek akses masuk armada dan kontur tanah di lokasi Anda se-Jabodetabek & Jabar.
+        </p>
+      </div>
+      <a
+        href="https://wa.me/6281288887766?text=Halo%20Admin,%20saya%20mau%20request%20jadwal%20survei%20lokasi%20proyek%20borpile."
+        target="_blank"
+        rel="noopener noreferrer"
+        class="shrink-0 px-8 py-4 rounded-xl bg-slate-950 hover:bg-slate-900 text-white font-bold text-base shadow-xl transition-all"
+      >
+        Request Survei Gratis →
+      </a>
+    </div>
+
+  </div>
+</section>

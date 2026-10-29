@@ -1,0 +1,400 @@
+---
+---
+
+<section id="kalkulator" class="py-16 md:py-24 bg-white border-b border-mechline-border text-mechline-dark">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+    <!-- Title -->
+    <div class="max-w-2xl mb-12">
+      <div class="text-xs font-semibold text-mechline-blue uppercase tracking-wider mb-2">
+        Simulasi Kebutuhan Tiang Pondasi
+      </div>
+      <h2 class="font-heading text-2xl sm:text-4xl font-extrabold text-mechline-dark tracking-tight mb-3">
+        Hitung Estimasi Kebutuhan Tiang Bor Anda
+      </h2>
+      <p class="text-mechline-gray text-sm sm:text-base leading-relaxed">
+        Pilih jenis metode pengerjaan, spesifikasi tiang, dan perkiraan kedalaman untuk menghitung volume pekerjaan Anda di Malang.
+      </p>
+    </div>
+
+    <!-- Calculator Grid Card -->
+    <div class="rounded-2xl bg-mechline-surface border border-neutral-200/90 p-6 sm:p-10 shadow-xs">
+      <div class="grid md:grid-cols-12 gap-8">
+        
+        <!-- Form Inputs (Left: 7 Cols) -->
+        <div class="md:col-span-7 space-y-6">
+          
+          <!-- 1. Jenis Pekerjaan -->
+          <div>
+            <label class="block text-xs font-bold uppercase tracking-wider text-mechline-dark mb-2">
+              1. Metode Pekerjaan Pondasi
+            </label>
+            <div class="grid grid-cols-2 gap-2.5">
+              <label class="cursor-pointer">
+                <input type="radio" name="calc_service" value="mini-crane" checked class="peer sr-only" id="calc_type_mini" />
+                <div class="p-3 rounded-xl border border-neutral-200 bg-white text-left peer-checked:border-mechline-blue peer-checked:bg-blue-50/50 transition-all">
+                  <div class="font-bold text-xs text-mechline-dark">Wash Boring (Mini Crane)</div>
+                  <div class="text-[11px] text-neutral-500">Dia 30 – 80 cm / Basah</div>
+                </div>
+              </label>
+
+              <label class="cursor-pointer">
+                <input type="radio" name="calc_service" value="mini-hydraulic" class="peer sr-only" id="calc_type_mini_hyd" />
+                <div class="p-3 rounded-xl border border-neutral-200 bg-white text-left peer-checked:border-mechline-blue peer-checked:bg-blue-50/50 transition-all">
+                  <div class="font-bold text-xs text-mechline-dark">Mini Hydraulic (Kering)</div>
+                  <div class="text-[11px] text-neutral-500">Dia 35 – 100 cm / Bebas Lumpur</div>
+                </div>
+              </label>
+
+              <label class="cursor-pointer">
+                <input type="radio" name="calc_service" value="hydraulic-rig" class="peer sr-only" id="calc_type_rig" />
+                <div class="p-3 rounded-xl border border-neutral-200 bg-white text-left peer-checked:border-mechline-blue peer-checked:bg-blue-50/50 transition-all">
+                  <div class="font-bold text-xs text-mechline-dark">Bore Pile Hydraulic Rig</div>
+                  <div class="text-[11px] text-neutral-500">Dia 50 – 120 cm / Heavy Duty</div>
+                </div>
+              </label>
+
+              <label class="cursor-pointer">
+                <input type="radio" name="calc_service" value="hspd-piling" class="peer sr-only" id="calc_type_hspd" />
+                <div class="p-3 rounded-xl border border-neutral-200 bg-white text-left peer-checked:border-mechline-blue peer-checked:bg-blue-50/50 transition-all">
+                  <div class="font-bold text-xs text-mechline-dark">Piling HSPD (Silent Tekan)</div>
+                  <div class="text-[11px] text-neutral-500">Tiang 20x20 / 25x25 cm</div>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- 2. Diameter & Wilayah Malang -->
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-bold uppercase tracking-wider text-mechline-dark mb-2" for="calc_diameter">
+                2. Ukuran Tiang
+              </label>
+              <select
+                id="calc_diameter"
+                class="w-full bg-white border border-neutral-300 rounded-lg px-3.5 py-2.5 text-xs sm:text-sm text-mechline-dark focus:outline-none focus:border-mechline-blue transition-colors"
+              >
+                <option value="30">Diameter 30 cm</option>
+                <option value="40" selected>Diameter 40 cm</option>
+                <option value="50">Diameter 50 cm</option>
+                <option value="60">Diameter 60 cm</option>
+                <option value="80">Diameter 80 cm</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold uppercase tracking-wider text-mechline-dark mb-2" for="calc_location">
+                3. Wilayah Proyek di Malang
+              </label>
+              <select
+                id="calc_location"
+                class="w-full bg-white border border-neutral-300 rounded-lg px-3.5 py-2.5 text-xs sm:text-sm text-mechline-dark focus:outline-none focus:border-mechline-blue transition-colors"
+              >
+                <option value="Kedungkandang (Kota Malang)" selected>Kedungkandang (Kota Malang)</option>
+                <option value="Klojen (Kota Malang)">Klojen (Kota Malang)</option>
+                <option value="Blimbing (Kota Malang)">Blimbing (Kota Malang)</option>
+                <option value="Lowokwaru (Kota Malang)">Lowokwaru (Kota Malang)</option>
+                <option value="Sukun (Kota Malang)">Sukun (Kota Malang)</option>
+                <option value="Singosari & Lawang (Malang Utara)">Singosari & Lawang (Malang Utara)</option>
+                <option value="Kepanjen & Pakisaji (Malang Selatan)">Kepanjen & Pakisaji (Malang Selatan)</option>
+                <option value="Pakis, Jabung & Tumpang (Malang Timur)">Pakis, Jabung & Tumpang (Malang Timur)</option>
+                <option value="Dau, Wagir & Karangploso (Malang Barat)">Dau, Wagir & Karangploso (Malang Barat)</option>
+                <option value="Kota Batu & Sekitarnya">Kota Batu & Sekitarnya</option>
+                <option value="Wilayah Malang Lainnya">Wilayah Malang Lainnya</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- 3. Kedalaman & Jumlah Titik -->
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div>
+              <div class="flex items-center justify-between mb-2">
+                <label class="text-xs font-bold uppercase tracking-wider text-mechline-dark" for="calc_depth">
+                  4. Kedalaman per Titik
+                </label>
+                <span class="text-xs text-mechline-blue font-bold" id="label_depth">14 Meter</span>
+              </div>
+              <input
+                type="range"
+                id="calc_depth"
+                min="6"
+                max="36"
+                value="14"
+                step="1"
+                class="w-full accent-mechline-blue cursor-pointer"
+              />
+              <div class="flex justify-between text-[11px] text-neutral-500 mt-1">
+                <span>6m</span>
+                <span>20m</span>
+                <span>36m</span>
+              </div>
+            </div>
+
+            <div>
+              <div class="flex items-center justify-between mb-2">
+                <label class="text-xs font-bold uppercase tracking-wider text-mechline-dark" for="calc_points">
+                  5. Jumlah Titik
+                </label>
+                <span class="text-xs text-mechline-blue font-bold" id="label_points">24 Titik</span>
+              </div>
+              <input
+                type="range"
+                id="calc_points"
+                min="6"
+                max="90"
+                value="24"
+                step="2"
+                class="w-full accent-mechline-blue cursor-pointer"
+              />
+              <div class="flex justify-between text-[11px] text-neutral-500 mt-1">
+                <span>6 titik</span>
+                <span>48 titik</span>
+                <span>90 titik</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. Skema Paket & Addon Sedot Lumpur -->
+          <div class="space-y-3 pt-2">
+            <div>
+              <label class="block text-xs font-bold uppercase tracking-wider text-mechline-dark mb-2">
+                6. Skema Pengadaan
+              </label>
+              <div class="grid grid-cols-2 gap-3">
+                <label class="cursor-pointer">
+                  <input type="radio" name="calc_package" value="jasa" checked class="peer sr-only" id="calc_pkg_jasa" />
+                  <div class="p-2.5 rounded-xl border border-neutral-200 bg-white text-center peer-checked:border-mechline-blue peer-checked:bg-blue-50/50 transition-all">
+                    <div class="font-bold text-xs text-mechline-dark">Jasa Bor / Pancang Saja</div>
+                    <div class="text-[10px] text-neutral-500">Unit Mesin + Operator + BBM</div>
+                  </div>
+                </label>
+                <label class="cursor-pointer">
+                  <input type="radio" name="calc_package" value="allin" class="peer sr-only" id="calc_pkg_allin" />
+                  <div class="p-2.5 rounded-xl border border-neutral-200 bg-white text-center peer-checked:border-mechline-blue peer-checked:bg-blue-50/50 transition-all">
+                    <div class="font-bold text-xs text-mechline-dark">All-In Lengkap</div>
+                    <div class="text-[10px] text-neutral-500">Jasa + Besi + Ready Mix</div>
+                  </div>
+                </label>
+              </div>
+            </div>
+
+            <!-- Addon Sedot Lumpur -->
+            <label class="flex items-start gap-3 p-3.5 rounded-xl border border-neutral-200 bg-white cursor-pointer hover:border-neutral-400 transition-colors">
+              <input type="checkbox" id="calc_addon_slurry" class="mt-0.5 rounded border-neutral-300 text-mechline-blue focus:ring-mechline-blue" />
+              <div>
+                <span class="text-xs font-bold text-mechline-dark block">Sertakan Armada Truk Sedot Lumpur (Vacuum Slurry)</span>
+                <span class="text-[11px] text-neutral-500 block">Pengurasan bak lumpur dan pengangkutan limbah cair tertutup ke lokasi pembuangan berizin.</span>
+              </div>
+            </label>
+          </div>
+
+        </div>
+
+        <!-- Result Box (Right: 5 Cols - NO PRICES SHOWN) -->
+        <div class="md:col-span-5 flex flex-col justify-between rounded-2xl bg-mechline-dark text-white p-6 sm:p-7 shadow-md">
+          <div>
+            <div class="text-xs font-bold uppercase tracking-wider text-neutral-300 mb-1">
+              Rincian Kebutuhan Teknis
+            </div>
+            <div class="text-xs text-neutral-400 mb-6">
+              Parameter estimasi pekerjaan Anda:
+            </div>
+
+            <div class="space-y-3.5 mb-6 text-xs">
+              <div class="flex items-center justify-between pb-2.5 border-b border-neutral-700">
+                <span class="text-neutral-400">Total Volume Kerja:</span>
+                <span class="text-base font-extrabold text-white" id="res_total_meter">336 m'</span>
+              </div>
+              <div class="flex items-center justify-between pb-2.5 border-b border-neutral-700">
+                <span class="text-neutral-400">Metode & Ukuran:</span>
+                <span class="text-neutral-200 font-semibold text-right" id="res_service_spec">Wash Boring Dia 40 cm</span>
+              </div>
+              <div class="flex items-center justify-between pb-2.5 border-b border-neutral-700">
+                <span class="text-neutral-400">Lokasi Proyek:</span>
+                <span class="text-neutral-200 font-semibold text-right" id="res_location_name">Kota Malang</span>
+              </div>
+              <div class="flex items-center justify-between pb-2.5 border-b border-neutral-700">
+                <span class="text-neutral-400">Skema Terpilih:</span>
+                <span class="text-neutral-200 font-semibold text-right" id="res_package_name">Jasa Bor + Operator</span>
+              </div>
+              <div class="flex items-center justify-between pb-2.5 border-b border-neutral-700">
+                <span class="text-neutral-400">Sedot Lumpur Vacuum:</span>
+                <span class="text-neutral-300 font-semibold text-right" id="res_slurry_status">Tidak Termasuk</span>
+              </div>
+            </div>
+
+            <!-- Status Box (No Price) -->
+            <div class="p-4 rounded-xl bg-black/60 border border-neutral-700 text-center mb-6">
+              <div class="text-[11px] uppercase tracking-wider font-semibold text-neutral-300 mb-1">
+                Kesiapan Penawaran & Survei:
+              </div>
+              <div class="text-base sm:text-lg font-bold text-white font-heading">
+                Konsultasikan Spesifikasi Langsung
+              </div>
+              <div class="text-[11px] text-neutral-400 mt-1">
+                Kirim rincian ini untuk mendapatkan analisis data tanah dan jadwal survei lapangan gratis di Malang.
+              </div>
+            </div>
+          </div>
+
+          <!-- WHATSAPP BUTTON (085183005070) -->
+          <div>
+            <a
+              id="btn_whatsapp_estimate"
+              href="https://wa.me/6285183005070"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="w-full py-3.5 px-4 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all text-center shadow-md"
+            >
+              <svg class="w-4 h-4 text-white shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.698c.969.54 1.767.828 2.796.828h.005c3.181 0 5.767-2.587 5.768-5.766 0-3.18-2.586-5.766-5.768-5.766zm9.969 5.766c0 5.514-4.486 10-10 10-1.708 0-3.32-.43-4.743-1.189l-5.257 1.378 1.4-5.118c-.85-1.488-1.341-3.21-1.341-5.043 0-5.514 4.486-10 10-10s10 4.486 10 10z"/>
+              </svg>
+              <span>Kirim Rincian ke WhatsApp: 0851-8300-5070</span>
+            </a>
+            <div class="text-center text-[10px] text-neutral-400 mt-2">
+              Langsung terhubung dengan tim estimator engineering kami.
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<script>
+  function initCalculator() {
+    const typeMini = document.getElementById('calc_type_mini') as HTMLInputElement | null;
+    const typeMiniHyd = document.getElementById('calc_type_mini_hyd') as HTMLInputElement | null;
+    const typeRig = document.getElementById('calc_type_rig') as HTMLInputElement | null;
+    const typeHspd = document.getElementById('calc_type_hspd') as HTMLInputElement | null;
+    const selectDia = document.getElementById('calc_diameter') as HTMLSelectElement | null;
+    const selectLoc = document.getElementById('calc_location') as HTMLSelectElement | null;
+    const sliderDepth = document.getElementById('calc_depth') as HTMLInputElement | null;
+    const sliderPoints = document.getElementById('calc_points') as HTMLInputElement | null;
+    const pkgJasa = document.getElementById('calc_pkg_jasa') as HTMLInputElement | null;
+    const pkgAllIn = document.getElementById('calc_pkg_allin') as HTMLInputElement | null;
+    const addonSlurry = document.getElementById('calc_addon_slurry') as HTMLInputElement | null;
+
+    const labelDepth = document.getElementById('label_depth');
+    const labelPoints = document.getElementById('label_points');
+    const resTotalMeter = document.getElementById('res_total_meter');
+    const resServiceSpec = document.getElementById('res_service_spec');
+    const resLocationName = document.getElementById('res_location_name');
+    const resPackageName = document.getElementById('res_package_name');
+    const resSlurryStatus = document.getElementById('res_slurry_status');
+    const btnWA = document.getElementById('btn_whatsapp_estimate') as HTMLAnchorElement | null;
+
+    if (!sliderDepth || !sliderPoints || !selectDia || !btnWA) return;
+
+    function updateOptions() {
+      if (!selectDia) return;
+      const currentVal = selectDia.value;
+      selectDia.innerHTML = '';
+
+      if (typeHspd?.checked) {
+        selectDia.add(new Option('Tiang Kotak 20x20 cm', '20'));
+        selectDia.add(new Option('Tiang Kotak 25x25 cm', '25'));
+        selectDia.add(new Option('Tiang Segitiga 28x28 cm', '28'));
+      } else if (typeRig?.checked) {
+        selectDia.add(new Option('Diameter 50 cm', '50'));
+        selectDia.add(new Option('Diameter 60 cm', '60'));
+        selectDia.add(new Option('Diameter 80 cm', '80'));
+        selectDia.add(new Option('Diameter 100 cm', '100'));
+        selectDia.add(new Option('Diameter 120 cm', '120'));
+      } else if (typeMiniHyd?.checked) {
+        selectDia.add(new Option('Diameter 35 cm', '35'));
+        selectDia.add(new Option('Diameter 40 cm', '40'));
+        selectDia.add(new Option('Diameter 50 cm', '50'));
+        selectDia.add(new Option('Diameter 60 cm', '60'));
+        selectDia.add(new Option('Diameter 80 cm', '80'));
+      } else {
+        selectDia.add(new Option('Diameter 30 cm', '30'));
+        selectDia.add(new Option('Diameter 40 cm', '40'));
+        selectDia.add(new Option('Diameter 50 cm', '50'));
+        selectDia.add(new Option('Diameter 60 cm', '60'));
+        selectDia.add(new Option('Diameter 80 cm', '80'));
+      }
+
+      const hasVal = Array.from(selectDia.options).some(o => o.value === currentVal);
+      if (hasVal) selectDia.value = currentVal;
+    }
+
+    function calculate() {
+      const dia = selectDia ? selectDia.value : '40';
+      const loc = selectLoc ? selectLoc.value : 'Kota Malang';
+      const depth = Number(sliderDepth?.value || 14);
+      const points = Number(sliderPoints?.value || 24);
+      const isAllIn = pkgAllIn?.checked;
+      const withSlurry = addonSlurry?.checked;
+
+      if (labelDepth) labelDepth.textContent = `${depth} Meter`;
+      if (labelPoints) labelPoints.textContent = `${points} Titik`;
+
+      const totalMeter = depth * points;
+      if (resTotalMeter) resTotalMeter.textContent = `${totalMeter.toLocaleString('id-ID')} m'`;
+
+      let serviceLabel = 'Wash Boring Mini Crane';
+      if (typeHspd?.checked) serviceLabel = 'Piling HSPD (Tekan Hidrolik)';
+      else if (typeRig?.checked) serviceLabel = 'Bore Pile Hydraulic Rig';
+      else if (typeMiniHyd?.checked) serviceLabel = 'Mini Hydraulic (Dry System)';
+
+      if (resServiceSpec) {
+        const unitLabel = typeHspd?.checked ? `Tiang ${dia} cm` : `Dia ${dia} cm`;
+        resServiceSpec.textContent = `${serviceLabel} (${unitLabel})`;
+      }
+
+      if (resLocationName) {
+        resLocationName.textContent = loc;
+      }
+
+      if (resPackageName) {
+        resPackageName.textContent = isAllIn ? 'All-In (Besi + Beton K-300)' : 'Jasa Saja + Alat & BBM';
+      }
+
+      if (resSlurryStatus) {
+        resSlurryStatus.textContent = withSlurry ? 'Truk Tangki Vacuum Aktif' : 'Tidak Termasuk';
+        resSlurryStatus.className = withSlurry ? 'text-emerald-400 font-semibold text-right' : 'text-neutral-400 font-semibold text-right';
+      }
+
+      const waText = 
+`Halo Estimator Pondasi Mandiri, saya ingin konsultasi kebutuhan bor pile di Malang:
+• Layanan: ${serviceLabel}
+• Ukuran Tiang: ${dia} cm
+• Kedalaman: ${depth} meter
+• Jumlah: ${points} titik
+• Total Volume: ${totalMeter} m'
+• Lokasi Proyek: ${loc}
+• Skema Pengadaan: ${isAllIn ? 'All-In (Material + Jasa)' : 'Jasa Saja'}
+• Truk Sedot Lumpur: ${withSlurry ? 'Ya (Sertakan Tangki Vacuum)' : 'Tidak'}
+
+Mohon informasi penawaran dan jadwal survei lapangan dari workshop Buring Malang. Terima kasih.`;
+
+      if (btnWA) {
+        btnWA.href = `https://wa.me/6285183005070?text=${encodeURIComponent(waText)}`;
+      }
+    }
+
+    [typeMini, typeMiniHyd, typeRig, typeHspd].forEach(r => {
+      r?.addEventListener('change', () => { updateOptions(); calculate(); });
+    });
+    selectDia?.addEventListener('change', calculate);
+    selectLoc?.addEventListener('change', calculate);
+    sliderDepth?.addEventListener('input', calculate);
+    sliderPoints?.addEventListener('input', calculate);
+    pkgJasa?.addEventListener('change', calculate);
+    pkgAllIn?.addEventListener('change', calculate);
+    addonSlurry?.addEventListener('change', calculate);
+
+    updateOptions();
+    calculate();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initCalculator);
+  } else {
+    initCalculator();
+  }
+</script>

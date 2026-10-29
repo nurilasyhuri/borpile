@@ -1,0 +1,97 @@
+---
+const steps = [
+  {
+    step: "01",
+    title: "Konsultasi & Review Data Sondir",
+    desc: "Kami mempelajari data hasil sondir tanah atau rekomendasi konsultan struktur Anda untuk menentukan diameter, kedalaman, dan metode bor yang paling tepat."
+  },
+  {
+    step: "02",
+    title: "Survei Akses & Kondisi Lapangan",
+    desc: "Tim teknis mengecek langsung lokasi proyek: lebar jalan masuk armada, jalur pembuangan lumpur, sumber air kerja, dan situasi bangunan tetangga sekitar."
+  },
+  {
+    step: "03",
+    title: "Penerbitan RAB & Kesepakatan Kontrak",
+    desc: "RAB transparan dengan hitungan per meter lari yang jelas. Tidak ada biaya siluman atau tambahan biaya tersembunyi di tengah jalan."
+  },
+  {
+    step: "04",
+    title: "Mobilisasi Alat & Setting Rig",
+    desc: "Armada mini crane / strauss pile tiba di lokasi tepat waktu. Tim melakukan perakitan menara rig, bak sirkulasi air, dan persiapan keselamatan K3."
+  },
+  {
+    step: "05",
+    title: "Pengeboran & Pemasangan Casing",
+    desc: "Pengeboran dilakukan secara presisi dan tegak lurus. Untuk lapisan tanah labil berair, dipasang pipa casing baja sementara guna mencegah dinding tanah longsor."
+  },
+  {
+    step: "06",
+    title: "Pembesian & Pengecoran Pipa Tremi",
+    desc: "Kerangka besi spiral dimasukkan, dilanjutkan pengecoran continue memakai pipa tremi dari dasar lubang bor hingga beton bersih naik ke permukaan."
+  },
+  {
+    step: "07",
+    title: "Opname Bersama & Berita Acara",
+    desc: "Pengukuran volume kedalaman riil disaksikan oleh pengawas/owner, diikuti serah terima berita acara pekerjaan yang sah."
+  }
+];
+---
+
+<section id="sop" class="py-20 md:py-28 bg-slate-900 border-t border-slate-800">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs font-bold uppercase tracking-wider mb-4">
+        Standard Operating Procedure (SOP)
+      </div>
+      <h2 class="font-display text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight mb-4">
+        7 Tahap Pengerjaan Transparan & Terukur
+      </h2>
+      <p class="text-slate-400 text-base sm:text-lg">
+        Setiap proses diawasi oleh mandor berpengalaman untuk memastikan pondasi Anda memenuhi standar kekuatan struktur teknik sipil.
+      </p>
+    </div>
+
+    <!-- Timeline Grid -->
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+      {steps.map((s, idx) => (
+        <div class="relative rounded-2xl bg-slate-950 p-6 border border-slate-800 hover:border-amber-500/50 transition-colors flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="font-display text-3xl font-extrabold text-amber-500/40">
+                {s.step}
+              </span>
+              <span class="w-2.5 h-2.5 rounded-full bg-amber-500"></span>
+            </div>
+            <h3 class="font-display text-base font-bold text-white mb-2">
+              {s.title}
+            </h3>
+            <p class="text-slate-300 text-xs leading-relaxed">
+              {s.desc}
+            </p>
+          </div>
+        </div>
+      ))}
+
+      <!-- Summary Card -->
+      <div class="rounded-2xl bg-gradient-to-br from-amber-500 to-amber-600 p-6 text-slate-950 flex flex-col justify-between shadow-xl">
+        <div>
+          <div class="text-2xl mb-2 font-display font-extrabold">Jaminan Kualitas</div>
+          <p class="text-xs font-medium text-slate-900 leading-relaxed mb-4">
+            Kami siap menandatangani SPK (Surat Perjanjian Kerja) resmi dengan garansi kualitas mutu beton dan kedalaman tanah keras.
+          </p>
+        </div>
+        <a
+          href="https://wa.me/6281288887766?text=Halo%20Admin,%20saya%20mau%20konsultasi%20draft%20SPK%20dan%20RAB%20borpile."
+          target="_blank"
+          rel="noopener noreferrer"
+          class="block w-full py-2.5 px-4 rounded-xl bg-slate-950 text-white font-bold text-xs text-center hover:bg-slate-900 transition-colors"
+        >
+          Konsultasi SPK Kerja →
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
