@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://borpilenusantara.com/sitemap-index.xml

@@ -2,8 +2,8 @@ name: Daily SEO Articles Publisher
 
 on:
   schedule:
-    # Runs everyday at 01:00 UTC (08:00 WIB pagi)
-    - cron: '0 1 * * *'
+    # Runs everyday at 23:30 UTC (06:30 WIB pagi)
+    - cron: '30 23 * * *'
   workflow_dispatch:
 
 permissions:
@@ -16,19 +16,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Bun environment
-        uses: oven-sh/setup-bun@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          bun-version: latest
+          node-version: 20
+          cache: 'npm'
 
       - name: Install dependencies
-        run: bun install
+        run: npm install
 
-      - name: Generate daily SEO article
-        run: node scripts/generate-daily-articles.mjs --count 1
+      - name: Generate 7 daily SEO articles
+        run: node scripts/generate-daily-articles.mjs --count 7
 
-      - name: Validate Astro build
-        run: bun run build
+      - name: Validate Astro build & sitemap
+        run: npm run build
 
       - name: Commit and push new articles
         run: |
@@ -38,6 +39,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No new articles to commit."
           else
-            git commit -m "content(seo): publish daily SEO article"
+            git commit -m "content(seo): publish 7 daily SEO articles"
             git push
           fi
