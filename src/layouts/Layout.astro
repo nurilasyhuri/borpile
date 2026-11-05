@@ -1,12 +1,14 @@
 ---
+import FloatingWhatsApp from '../components/FloatingWhatsApp.astro';
+
 interface Props {
   title?: string;
   description?: string;
 }
 
 const {
-  title = "Jasa Bor Pile dan Pancang Malang - Pondasi Mandiri",
-  description = "Kontraktor spesialis bore pile hydraulic rig, mini crane, pancang HSPD, dan sedot lumpur terpercaya di Malang dengan armada sendiri."
+  title = "Jasa Bor Pile dan Pancang Terpercaya Indonesia - Pondasi Mandiri",
+  description = "Kontraktor spesialis bore pile hydraulic rig, mini crane, pancang HSPD, dan sedot lumpur terpercaya di seluruh Indonesia dengan armada sendiri."
 } = Astro.props;
 ---
 
@@ -52,5 +54,6 @@ const {
   </head>
   <body class="bg-white text-mechline-dark antialiased selection:bg-mechline-blue selection:text-white overflow-x-hidden font-sans">
     <slot />
+    <FloatingWhatsApp />
   </body>
 </html>

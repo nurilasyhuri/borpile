@@ -1,18 +1,18 @@
 ---
-title: 'Pentingnya Uji Sondir Tanah Sebelum Memulai Proyek Bor Pile di Malang'
-seoTitle: 'Pentingnya Uji Sondir Tanah Sebelum Bor Pile di Malang'
-description: 'Panduan uji sondir CPT dan N-SPT untuk pondasi bor pile di Malang. Mengetahui elevasi tanah keras, daya dukung tanah, dan mencegah kegagalan struktur.'
+title: 'Pentingnya Uji Sondir Tanah Sebelum Memulai Proyek Bor Pile'
+seoTitle: 'Pentingnya Uji Sondir Tanah Sebelum Bor Pile - Panduan CPT'
+description: 'Panduan uji sondir CPT dan N-SPT untuk pondasi bor pile. Mengetahui elevasi tanah keras, daya dukung tanah, dan mencegah kegagalan struktur.'
 publishDate: '27 Oktober 2026'
 author: 'Tim Teknik Pondasi Mandiri'
 category: 'Geoteknik & Pengujian'
-tags: ['uji sondir malang', 'sondir bor pile', 'data cpt tanah', 'uji geoteknik']
+tags: ['uji sondir', 'sondir bor pile', 'data cpt tanah', 'uji geoteknik']
 heroImage: '/images/machine-pda.webp'
 featured: true
 ---
 
 Sebelum mendatangkan alat berat pengeboran bore pile ke lokasi proyek, langkah pertama yang wajib dilakukan oleh perencana struktur maupun kontraktor adalah **penyelidikan geoteknik melalui uji sondir (*Cone Penetration Test* / CPT)**. 
 
-Di wilayah Malang Raya yang dikelilingi gugusan pegunungan dan patahan geologis, karakteristik daya dukung tanah dapat berbeda drastis meskipun hanya berjarak beberapa ratus meter. Melakukan pengeboran tiang bor tanpa panduan data sondir ibarat membangun rumah di atas tebakan berisiko tinggi.
+Di berbagai wilayah di Indonesia yang memiliki keragaman kondisi geologis, karakteristik daya dukung tanah dapat berbeda drastis meskipun hanya berjarak beberapa ratus meter. Melakukan pengeboran tiang bor tanpa panduan data sondir ibarat membangun rumah di atas tebakan berisiko tinggi.
 
 ---
 
@@ -37,12 +37,12 @@ Mengabaikan penyelidikan tanah sebelum penentuan spesifikasi bor pile kerap memi
 
 ---
 
-## 3. Karakteristik Tanah di Wilayah Malang Raya
+## 3. Variasi Karakteristik Formasi Lapisan Tanah
 
-Secara umum, formasi tanah di Malang terbagi menjadi beberapa zona tipikal:
-* **Zona Malang Timur (Kedungkandang, Buring, Tumpang):** Didominasi oleh tanah lempung tufaan dengan lapisan tanah keras yang bervariasi antara 10 hingga 18 meter.
-* **Zona Malang Pusat & Utara (Klojen, Blimbing, Singosari):** Struktur tanah relatif stabil dengan pasir berlanau dan kerikil vulkanik padat pada kedalaman 12 hingga 22 meter.
-* **Zona Malang Barat & Lereng (Dau, Karangploso, Kota Batu):** Sering ditemukan formasi bebatuan andesit dan konglomerat cadas pada kedalaman dangkal (6 hingga 12 meter) yang memerlukan mata bor *core barrel* atau *rock auger*.
+Secara umum, formasi tanah pada proyek konstruksi terbagi menjadi beberapa zona tipikal:
+* **Zona Tanah Lempung Ekspansif:** Didominasi oleh tanah lempung tufaan dengan lapisan tanah keras yang bervariasi antara 10 hingga 18 meter.
+* **Zona Aluvial & Pesisir:** Struktur tanah relatif lunak di bagian atas dengan pasir berlanau dan kerikil padat pada kedalaman 12 hingga 25 meter.
+* **Zona Perbukitan & Batuan:** Sering ditemukan formasi bebatuan andesit dan konglomerat cadas pada kedalaman dangkal (6 hingga 12 meter) yang memerlukan mata bor khusus seperti *core barrel* atau *rock auger*.
 
 ---
 
@@ -55,10 +55,10 @@ Berdasarkan laporan hasil uji sondir, konsultan struktur akan menentukan:
 
 ---
 
-## Layanan Analisis Sondir & Bor Pile Malang
+## Layanan Analisis Sondir & Bor Pile Indonesia
 
-Pondasi Mandiri memiliki tim teknis berpengalaman yang siap membantu membaca dan mengevaluasi hasil laporan sondir Anda secara gratis sebelum penawaran RAB diterbitkan.
+Pondasi Mandiri memiliki tim teknis berpengalaman yang siap membantu membaca dan mengevaluasi hasil laporan sondir Anda secara profesional sebelum penawaran teknis diterbitkan.
 
-* **Alamat Workshop:** Puncak Buring Indah, Kedungkandang, Kota Malang
+* **Jangkauan Layanan:** Konsultasi dan eksekusi proyek di seluruh Indonesia
 * **WhatsApp Konsultasi Cepat:** 0851-8300-5070
 * **Dukungan Armada:** Tim Geoteknik, Mini Crane, & Mesin Rig Hidrolik Mandiri.

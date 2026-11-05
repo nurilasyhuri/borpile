@@ -3,6 +3,7 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://borpilenusantara.com',
   integrations: [tailwind()],
   server: {
     port: 4321,

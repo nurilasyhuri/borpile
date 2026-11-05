@@ -1,18 +1,18 @@
 ---
-title: 'Bore Pile Mini Hydraulic Dry System: Solusi Pengeboran Bersih Tanpa Lumpur di Malang'
-seoTitle: 'Bore Pile Dry System Bebas Lumpur di Malang - Metode Kering'
-description: 'Keunggulan metode bore pile mini hydraulic sistem kering di Malang. Pengeboran bersih tanpa ceceran lumpur untuk area basement, gudang, dan ruko aktif.'
+title: 'Bore Pile Mini Hydraulic Dry System: Solusi Pengeboran Bersih Tanpa Lumpur'
+seoTitle: 'Bore Pile Dry System Bebas Lumpur - Metode Putar Kering'
+description: 'Keunggulan metode bore pile mini hydraulic sistem kering. Pengeboran bersih tanpa ceceran lumpur untuk area basement, gudang, dan ruko aktif.'
 publishDate: '26 Oktober 2026'
 author: 'Tim Teknik Pondasi Mandiri'
 category: 'Inovasi Alat'
-tags: ['bore pile dry system', 'mini hydraulic malang', 'metode kering', 'pengeboran bersih']
+tags: ['bore pile dry system', 'mini hydraulic', 'metode kering', 'pengeboran bersih']
 heroImage: '/images/machine-minihydraulic.webp'
 featured: true
 ---
 
 Salah satu kendala terbesar dalam pengerjaan pondasi bore pile konvensional di area perkotaan yang padat adalah **masalah sirkulasi air dan limbah lumpur cair (*slurry*)**. Pada proyek renovasi gedung kantor aktif, rumah sakit, pusat perbelanjaan, atau area basement dengan ruang terbatas, ceceran lumpur cair berpotensi mengganggu operasional lingkungan dan memicu komplain warga.
 
-Untuk menjawab kebutuhan lingkungan kerja bersih (*clean site*), metode **Bore Pile Mini Hydraulic Dry System (Metode Putar Kering)** menjadi pilihan favorit kontraktor modern di Malang.
+Untuk menjawab kebutuhan lingkungan kerja bersih (*clean site*), metode **Bore Pile Mini Hydraulic Dry System (Metode Putar Kering)** menjadi pilihan favorit kontraktor modern.
 
 ---
 
@@ -30,7 +30,7 @@ Berbeda dengan sistem *wash boring* yang membutuhkan kolam sirkulasi (*mud pit*)
 ## 2. Keunggulan Utama Metode Kering (Dry System)
 
 * **Zero Slurry (Bebas Lumpur Cair):** Tidak ada genangan air berlumpur di lantai kerja. Area proyek tetap rapi, kering, dan higienis sepanjang pengerjaan berlangsung.
-* **Tidak Memerlukan Pasokan Air Kerja Masif:** Sangat ideal untuk lokasi proyek di kawasan Malang yang minim sumber air tanah atau memiliki debit air terbatas.
+* **Tidak Memerlukan Pasokan Air Kerja Masif:** Sangat ideal untuk lokasi proyek yang minim sumber air tanah atau memiliki debit air terbatas.
 * **Aman untuk Struktur Dekat Bangunan Aktif:** Rangka mesin kompak bertenaga hidrolik presisi menghasilkan getaran yang sangat minimal, aman dioperasikan tepat di samping pondasi gedung yang sedang dihuni.
 * **Eliminasi Biaya Pengurasan Bak Sirkulasi:** Karena tidak membentuk lumpur cair bervolume besar, pengelola proyek tidak perlu mengeluarkan anggaran berlebih untuk pembuatan kolam sirkulasi dan armada sedot lumpur besar.
 
@@ -45,7 +45,7 @@ Pondasi Mandiri mengoperasikan unit mesin *Mini Hydraulic Rig Compact* dengan sp
 
 ---
 
-## 4. Proyek yang Cocok Menggunakan Metode Kering di Malang
+## 4. Proyek yang Cocok Menggunakan Metode Kering
 
 1. **Pabrik & Pergudangan Aktif:** Pembangunan pondasi untuk mesin baru di dalam ruangan pabrik yang tidak boleh terkena cipratan air dan lumpur.
 2. **Pondasi Basement:** Penggalian lubang tiang bor di lantai bawah tanah yang tidak memiliki saluran pembuangan air gravitasi.
@@ -53,10 +53,10 @@ Pondasi Mandiri mengoperasikan unit mesin *Mini Hydraulic Rig Compact* dengan sp
 
 ---
 
-## Solusi Pengeboran Bersih di Malang Raya
+## Solusi Pengeboran Bersih Indonesia
 
-Pastikan proyek konstruksi Anda tetap higienis dan efisien dengan armada *Mini Hydraulic Dry System* dari Pondasi Mandiri.
+Pastikan proyek konstruksi Anda tetap higienis dan efisien dengan armada *Mini Hydraulic Dry System* dari Pondasi Mandiri di seluruh Indonesia.
 
-* **Base Workshop:** Puncak Buring Indah, Kedungkandang, Kota Malang
+* **Mobilisasi Armada:** Siap kirim ke berbagai lokasi proyek di seluruh Indonesia
 * **Hotline WhatsApp Resmi:** 0851-8300-5070
-* **Konsultasi Survei Lapangan:** Bebas biaya survei lokasi dan analisis metode kerja.
+* **Konsultasi Survei Lapangan:** Bebas biaya konsultasi teknis awal dan analisis metode kerja.

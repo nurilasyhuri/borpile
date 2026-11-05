@@ -1,46 +1,83 @@
 ---
-const trustItems = [
-  {
-    title: "Armada Heavy-Duty Sendiri",
-    desc: "Bukan perantara/calo. Unit siap mobilisasi cepat dari workshop Buring ke seluruh lokasi proyek di Malang.",
-    icon: `<path d="M10 17h4V5H2v12h3m11 0h2a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2h-2m-4 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm10 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"/>`
-  },
-  {
-    title: "Free Survei & Analisis Tanah",
-    desc: "Bantuan evaluasi laporan Sondir/SPT untuk menentukan elevasi tanah keras di area Malang.",
-    icon: `<path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>`
-  },
-  {
-    title: "Transparansi Opname Riil",
-    desc: "Pengukuran kedalaman riil bersama per lubang bor. Tanpa manipulasi volume.",
-    icon: `<rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/>`
-  },
-  {
-    title: "K3 Lingkungan & Garansi Struktur",
-    desc: "100% aman untuk bangunan tetangga dengan fasilitas uji PIT dan PDA mandiri.",
-    icon: `<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>`
-  }
-];
 ---
 
-<section class="py-10 bg-white border-b border-mechline-border">
+<section id="k3" class="py-16 sm:py-24 bg-slate-950 text-white border-b border-slate-900">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-      {trustItems.map((item) => (
-        <div class="p-5 rounded-xl bg-mechline-card border border-neutral-300/60 flex items-start gap-3.5 hover:bg-[#e4e4e4] transition-colors">
-          <div class="w-10 h-10 rounded-lg bg-white border border-neutral-300 flex items-center justify-center text-mechline-dark shrink-0">
-            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" set:html={item.icon} />
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+      
+      <!-- Left Column: Specs & Guarantees -->
+      <div class="lg:col-span-7 space-y-6">
+        <div>
+          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-white tracking-normal leading-snug">
+            Standar Keselamatan Kerja Konstruksi
+          </h2>
+          <p class="text-slate-400 text-xs sm:text-sm mt-2 leading-relaxed">
+            Setiap pengerjaan tiang bor dan pancang dijalankan dengan kepatuhan penuh terhadap standar rekayasa geoteknik nasional serta jaminan keselamatan struktur lingkungan sekitar.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-1">
+          <div class="p-5 rounded-2xl bg-white/[0.04] border border-white/5 space-y-1">
+            <div class="text-xs text-orange-400 font-bold uppercase tracking-wider">
+              SNI 8460:2017
+            </div>
+            <p class="text-xs text-slate-300 leading-snug">
+              Analisis daya dukung tanah keras & uji SPT geoteknik
+            </p>
           </div>
-          <div>
-            <h3 class="font-heading font-bold text-xs text-mechline-dark mb-1 leading-snug">
-              {item.title}
-            </h3>
-            <p class="text-[11px] text-mechline-gray leading-relaxed">
-              {item.desc}
+
+          <div class="p-5 rounded-2xl bg-white/[0.04] border border-white/5 space-y-1">
+            <div class="text-xs text-orange-400 font-bold uppercase tracking-wider">
+              0% Getaran Merambat
+            </div>
+            <p class="text-xs text-slate-300 leading-snug">
+              Aman 100% dari risiko retak dinding & komplain tetangga
+            </p>
+          </div>
+
+          <div class="p-5 rounded-2xl bg-white/[0.04] border border-white/5 space-y-1">
+            <div class="text-xs text-orange-400 font-bold uppercase tracking-wider">
+              Disposal Lumpur Legal
+            </div>
+            <p class="text-xs text-slate-300 leading-snug">
+              Armada tangki vacuum limbah sedot berizin resmi
             </p>
           </div>
         </div>
-      ))}
+
+        <div class="pt-2">
+          <a
+            href="/artikel/sop-pengelolaan-dan-sedot-lumpur-bore-pile/"
+            class="inline-flex items-center gap-2 px-7 py-3 rounded-full bg-emerald-700 hover:bg-emerald-600 active:scale-95 text-white font-bold text-xs tracking-wider uppercase transition-colors shadow-sm"
+          >
+            <span>Pelajari Standar K3 Lengkap</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-3.5 h-3.5">
+              <path d="M5 12h14"></path>
+              <path d="m12 5 7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Right Column: Verification Image Stage -->
+      <div class="lg:col-span-5 space-y-4">
+        <div class="relative w-full aspect-[16/10] rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
+          <img
+            src="/images/machine-pda.webp"
+            alt="Inspeksi Standar K3 dan Uji Beban Geoteknik Lapangan"
+            class="w-full h-full object-cover"
+            loading="lazy"
+          />
+        </div>
+        <div class="flex items-center gap-2 text-xs text-slate-400 px-1">
+          <svg class="w-4 h-4 text-emerald-400 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+          </svg>
+          <span>Peralatan & APD lengkap sesuai regulasi Permenaker No. 01/1980</span>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>

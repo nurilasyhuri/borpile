@@ -1,11 +1,11 @@
 ---
 title: 'Standar Pengecoran Tiang Bor Sistem Pipa Tremi: Mencegah Beton Keropos di Lapangan'
-seoTitle: 'Standar Pengecoran Tremi Bore Pile Malang - Mutu Beton SNI'
-description: 'Prosedur pengecoran tiang bor pile metode pipa tremi berstandar SNI di Malang. Mencegah segregasi campuran beton ready mix dan rongga udara di dasar tiang.'
+seoTitle: 'Standar Pengecoran Tremi Bore Pile - Mutu Beton SNI'
+description: 'Prosedur pengecoran tiang bor pile metode pipa tremi berstandar SNI. Mencegah segregasi campuran beton ready mix dan rongga udara di dasar tiang.'
 publishDate: '22 Oktober 2026'
 author: 'Tim Teknik Pondasi Mandiri'
 category: 'Standar Pengecoran'
-tags: ['pengecoran pipa tremi', 'beton bore pile sni', 'slump test ready mix', 'metode tremi malang']
+tags: ['pengecoran pipa tremi', 'beton bore pile sni', 'slump test ready mix', 'metode tremi']
 heroImage: '/images/machine-tremie.webp'
 featured: false
 ---
@@ -51,16 +51,16 @@ Beberapa pelaksana non-profesional kerap menuangkan adukan beton langsung dari p
 ## 4. Jaminan Mutu Pengecoran Pondasi Mandiri
 
 Pondasi Mandiri memastikan setiap tahapan pengecoran diawasi secara cermat:
-* Melakukan pengujian *Slump Test* di depan pengawas lapangan untuk setiap truk mixer yang tiba di lokasi proyek Malang.
+* Melakukan pengujian *Slump Test* di depan pengawas lapangan untuk setiap truk mixer yang tiba di lokasi proyek.
 * Menggunakan pipa tremi baja sambungan drat presisi dan o-ring karet anti bocor.
 * Pengecoran dilakukan secara kontinyu tanpa jeda waktu lama (*monolithic pour*) hingga kepala tiang meluap di atas elevasi batas rencana (*overpouring*) minimal 50 cm untuk memastikan lapisan beton teratas bebas dari kontaminasi lumpur.
 
 ---
 
-## Konsultasi Standar Struktur Pondasi Malang
+## Konsultasi Standar Struktur Pondasi Indonesia
 
-Dapatkan jaminan mutu struktur tiang bor berstandar teknik SNI untuk proyek Anda bersama tim Pondasi Mandiri di Malang Raya.
+Dapatkan jaminan mutu struktur tiang bor berstandar teknik SNI untuk proyek Anda bersama tim Pondasi Mandiri di seluruh Indonesia.
 
-* **Workshop:** Puncak Buring Indah, Kedungkandang, Kota Malang
+* **Mobilisasi Peralatan:** Pipa tremi, casing baja, dan alat pendukung siap kirim ke berbagai lokasi proyek
 * **Hotline WhatsApp Cepat:** 0851-8300-5070
 * **Garansi Layanan:** Transparansi Slump Test, Pengawasan Tremi, & Opname Bersama.
