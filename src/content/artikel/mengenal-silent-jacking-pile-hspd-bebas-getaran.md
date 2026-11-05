@@ -3,7 +3,7 @@ title: 'Mengenal Silent Jacking Pile HSPD: Metode Pancang Tekan Hidrolik Bebas G
 seoTitle: 'Silent Jacking Pile HSPD Bebas Getaran - Pondasi Tekan Modern'
 description: 'Solusi tiang pancang tekan sistem hidrolik HSPD. Pemancangan tanpa suara bising dan 0% getaran, aman dari risiko retak dinding tetangga.'
 publishDate: '25 Oktober 2026'
-author: 'Tim Teknik Pondasi Mandiri'
+author: 'Tim Teknik Borpile Nusantara'
 category: 'Pancang Hidrolik'
 tags: ['jacking pile', 'hspd pancang tekan', 'tiang pancang bebas getaran', 'pondasi tanpa bising']
 heroImage: '/images/machine-hspd.webp'
@@ -41,7 +41,7 @@ Mesin HSPD bekerja dengan prinsip penjepitan dan penekanan hidrolik murni (*stat
 
 ## 3. Spesifikasi Tiang yang Dapat Ditekan
 
-Unit HSPD Pondasi Mandiri mampu mengakomodasi berbagai profil tiang pancang pracetak berkualitas tinggi:
+Unit HSPD Borpile Nusantara mampu mengakomodasi berbagai profil tiang pancang pracetak berkualitas tinggi:
 * **Tiang Pancang Kotak (Square Pile):** Ukuran 20x20 cm, 25x25 cm, 30x30 cm, hingga 40x40 cm.
 * **Tiang Pancang Segitiga (Triangular Pile):** Ukuran 28x28x28 cm dan 32x32x32 cm.
 * **Spun Pile Bulat:** Diameter 30 cm, 40 cm, 50 cm, hingga 60 cm.
@@ -58,7 +58,7 @@ Unit HSPD Pondasi Mandiri mampu mengakomodasi berbagai profil tiang pancang prac
 
 ## Layanan Jacking Pile Bebas Bising Indonesia
 
-Pondasi Mandiri menyediakan paket lengkap tiang pancang tekan hidrolik HSPD mencakup pengadaan tiang beton pracetak teruji, transportasi armada, hingga pelaksanaan pemancangan bergaransi resmi di seluruh Indonesia.
+Borpile Nusantara menyediakan paket lengkap tiang pancang tekan hidrolik HSPD mencakup pengadaan tiang beton pracetak teruji, transportasi armada, hingga pelaksanaan pemancangan bergaransi resmi di seluruh Indonesia.
 
 * **Mobilisasi Peralatan:** Pool alat berat dan armada mandiri siap kirim ke berbagai lokasi proyek
 * **Hotline Konsultasi WhatsApp:** 0851-8300-5070

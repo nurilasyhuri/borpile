@@ -1,4 +1,4 @@
-# Design Specification — Borpile (Pondasi Mandiri)
+# Design Specification — Borpile (Borpile Nusantara)
 
 > Target visual direction: **Urban Theme - Mechline Preset** (Shopify Theme Store)
 > Reference URL: `https://themes.shopify.com/themes/urban/presets/mechline`
@@ -24,7 +24,7 @@ gate-allow: labels - Industrial spec tags and machine classifications across 11 
 - **C1 (Cinematic Hero Banner)**: Full-width high-contrast hero banner featuring dynamic heavy drilling machinery, crisp white centered headline, concise value proposition, and dual Mechline pill buttons (`[KONSULTASI WA 0851-8300-5070]` in blue, `[SIMULASI KEBUTUHAN TIANG]` in white with border).
 - **C2 (Flagship Machinery Spotlight & Configurator)**: Single featured equipment hero card (Mechline PDP format): Left = large machinery stage with 4 angle thumbnails; Right = interactive selector for diameter (`30cm`, `40cm`, `50cm`, `60cm`, `80cm`), machine method, depth/points counter `[-] [1] [+]`, real-time volume calculator, and direct WhatsApp consultation action.
 - **C3 (Equipment Badges Strip)**: Horizontal row of rounded gray cards (`bg-mechline-surface border border-neutral-200`) showcasing fleet capabilities.
-- **C4 (Interactive Before / After Split Slider)**: Mechline's signature "See the Difference" comparison slider (`|||` draggable handle) contrasting conventional drop hammer damage (wall cracks, mud overflow) vs Pondasi Mandiri's precision bore pile & vacuum truck clean site.
+- **C4 (Interactive Before / After Split Slider)**: Mechline's signature "See the Difference" comparison slider (`|||` draggable handle) contrasting conventional drop hammer damage (wall cracks, mud overflow) vs Borpile Nusantara's precision bore pile & vacuum truck clean site.
 - **C5 (Trust & Feature 4-Card Strip)**: 4 light-gray rectangular cards (`bg-mechline-card p-5 rounded-lg`) highlighting Armada Milik Sendiri di Malang, Free Survei Malang, Transparansi Opname Riil, dan K3 Lingkungan.
 - **C6 (Catalog & Fleet Grid)**: 4-column product-style grid on pure white canvas displaying 8 specialized services and machines with diameter swatches, star rating `★4.9` (solid filled `#d97706`), operational readiness badges, and direct WA consultation buttons (no price numbers).
 - **C7 (Depo / Coverage Locations)**: 3-column clean white cards detailing Workshop Pusat di Puncak Buring Indah, Kedungkandang, Malang, Pool Alat Berat Malang, dan Depo Truk Tangki Vacuum Malang.

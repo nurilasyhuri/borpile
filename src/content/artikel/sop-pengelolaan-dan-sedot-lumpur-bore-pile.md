@@ -3,7 +3,7 @@ title: 'SOP Pengelolaan dan Sedot Lumpur Bore Pile Menggunakan Truk Tangki Vacuu
 seoTitle: 'SOP Pengelolaan Sedot Lumpur Bore Pile - Truk Vacuum'
 description: 'Standar operasional pengelolaan dan penyedotan lumpur cair pengeboran dengan armada tangki vacuum tertutup menuju disposal resmi berizin.'
 publishDate: '23 Oktober 2026'
-author: 'Tim Teknik Pondasi Mandiri'
+author: 'Tim Teknik Borpile Nusantara'
 category: 'Manajemen Limbah & K3'
 tags: ['sedot lumpur bore pile', 'truk tangki vacuum', 'limbah lumpur bor', 'k3 lingkungan']
 heroImage: '/images/machine-vacuum.webp'
@@ -12,7 +12,7 @@ featured: false
 
 Pekerjaan pondasi bore pile metode basah (*wash boring*) menghasilkan volume lumpur cair (*drilling slurry*) yang cukup signifikan. Pada proyek berkapasitas 30 hingga 50 titik tiang bor, akumulasi lumpur cair dapat mencapai puluhan meter kubik. Tanpa tata kelola pembuangan yang profesional, limbah lumpur berisiko mencemari saluran drainase lingkungan, meluber ke jalan raya perkotaan, dan memicu sanksi tegas dari dinas lingkungan hidup.
 
-Sebagai kontraktor pondasi terpadu di Indonesia, **Pondasi Mandiri menerapkan Standar Operasional Prosedur (SOP) pengelolaan dan penyedotan lumpur menggunakan armada truk tangki vacuum mandiri**.
+Sebagai kontraktor pondasi terpadu di Indonesia, **Borpile Nusantara menerapkan Standar Operasional Prosedur (SOP) pengelolaan dan penyedotan lumpur menggunakan armada truk tangki vacuum mandiri**.
 
 ---
 
@@ -26,9 +26,9 @@ Lumpur hasil pengeboran mengandung partikel tanah liat koloid, bentonit, serta s
 
 ---
 
-## 2. Rangkaian Alur SOP Penanganan Lumpur Pondasi Mandiri
+## 2. Rangkaian Alur SOP Penanganan Lumpur Borpile Nusantara
 
-Pondasi Mandiri menerapkan siklus penanganan limbah tertutup (*closed-loop mud management*):
+Borpile Nusantara menerapkan siklus penanganan limbah tertutup (*closed-loop mud management*):
 
 1. **Pembuatan Bak Sedimentasi Bertingkat:** Sebelum pengeboran berjalan, tim kami menggali dua bak sementara: bak pengendapan serpihan kasar (*settling pit*) dan bak sirkulasi air cair (*suction pit*).
 2. **Penyedotan Kontinyu dari Bak Penampung:** Ketika debit lumpur pekat di bak sedimentasi mencapai ambang batas, selang hisap fleksibel berdiameter 3 inci dihubungkan langsung ke unit pompa vacuum truk tangki.
@@ -38,7 +38,7 @@ Pondasi Mandiri menerapkan siklus penanganan limbah tertutup (*closed-loop mud m
 
 ---
 
-## 3. Spesifikasi Armada Truk Vacuum Pondasi Mandiri
+## 3. Spesifikasi Armada Truk Vacuum Borpile Nusantara
 
 * **Kapasitas Tangki:** Tersedia pilihan tangki 4.000 liter dan 6.000 liter bodi baja anti korosi.
 * **Pompa Vacuum Rotary Vane:** Mampu menghasilkan daya hisap tekanan tinggi (*negative pressure*) yang sanggup menyedot lumpur berkadar viskositas tinggi dari kedalaman bak 4–5 meter.
@@ -50,7 +50,7 @@ Pondasi Mandiri menerapkan siklus penanganan limbah tertutup (*closed-loop mud m
 
 Banyak mandor bor pile yang menyerahkan urusan pembuangan lumpur kepada pemilik proyek, sehingga pemilik proyek harus repot mencari jasa sedot lumpur terpisah dengan biaya ekstra mahal.
 
-Di Pondasi Mandiri, seluruh layanan pengeboran dapat diintegrasikan dengan paket penyedotan lumpur bergaransi:
+Di Borpile Nusantara, seluruh layanan pengeboran dapat diintegrasikan dengan paket penyedotan lumpur bergaransi:
 * Biaya lebih hemat dan terpadu dalam satu Surat Perintah Kerja (SPK).
 * Jadwal sedot lumpur sinkron tepat waktu dengan jadwal pengeboran tiang bor.
 * Lingkungan proyek dijamin bersih (*clean site*), rapi, dan mematuhi regulasi K3 lingkungan perkotaan.

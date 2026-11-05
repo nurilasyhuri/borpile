@@ -3,7 +3,7 @@ title: 'Perbedaan Bor Pile dan Strauss Pile: Mana Pilihan Tepat untuk Proyek Kon
 seoTitle: 'Perbedaan Bor Pile vs Strauss Pile - Panduan Lengkap Pondasi'
 description: 'Ketahui perbandingan teknis bor pile mesin mini crane vs strauss pile manual. Analisis kapasitas beban tonase, kedalaman tanah keras, dan akses gang.'
 publishDate: '4 November 2026'
-author: 'Tim Teknik Pondasi Mandiri'
+author: 'Tim Teknik Borpile Nusantara'
 category: 'Metode Pondasi'
 tags: ['bor pile', 'strauss pile', 'pondasi dalam', 'mini crane', 'perbedaan pondasi']
 heroImage: '/images/machine-strauss.webp'
@@ -57,7 +57,7 @@ Berikut perbandingan komprehensif seluruh parameter teknis kedua metode pengebor
 
 ## Tabel Jangkauan Operasional & Mobilisasi Rig Se-Indonesia
 
-Pondasi Mandiri mengoperasikan armada bore pile mini crane, hydraulic dry rig, dan jacking pile ke seluruh koridor Indonesia:
+Borpile Nusantara mengoperasikan armada bore pile mini crane, hydraulic dry rig, dan jacking pile ke seluruh koridor Indonesia:
 
 | Wilayah / Koridor | Cakupan Kawasan Proyek | Kesiapan Armada di Lapangan | Moda Mobilisasi Alat | Estimasi Lead Time | Status Layanan |
 |---|---|---|---|---|:---:|
@@ -80,13 +80,13 @@ Tidak. Bore pile mesin mini crane bekerja dengan prinsip mengikis dan melumatkan
 
 ---
 
-## Solusi Rekayasa Pondasi Dalam Bersama Pondasi Mandiri
+## Solusi Rekayasa Pondasi Dalam Bersama Borpile Nusantara
 
 Dapatkan rekomendasi metode tiang pondasi yang paling aman dan efisien sesuai karakteristik tanah proyek Anda:
 
 - **Hitung Perkiraan Biaya & Titik Tiang**: [Kalkulator Simulasi Pondasi](/kalkulator/)
 - **Lihat Spesifikasi Alat**: [Armada Bore Pile & Mini Crane Mandiri](/layanan/)
-- **Konsultasi WhatsApp**: [Hubungi Tim Estimator Ahli (0851-8300-5070)](https://wa.me/6285183005070?text=Halo%20Pondasi%20Mandiri,%20saya%20ingin%20konsultasi%20perbandingan%20bor%20pile%20dan%20strauss%20pile)
+- **Konsultasi WhatsApp**: [Hubungi Tim Estimator Ahli (0851-8300-5070)](https://wa.me/6285183005070?text=Halo%20Borpile%20Nusantara,%20saya%20ingin%20konsultasi%20perbandingan%20bor%20pile%20dan%20strauss%20pile)
 
 ```json
 {

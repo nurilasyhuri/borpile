@@ -3,7 +3,7 @@ title: 'Estimasi Kebutuhan Volume Beton Ready Mix & Overbreak Factor Tiang Bor P
 seoTitle: 'Perhitungan Volume Beton & Overbreak Factor Bore Pile'
 description: 'Panduan teknis menghitung volume beton ready mix tiang bore pile, rumus overbreak factor tanah lunak, slump pipa tremi, dan elevasi over-pour cut-off level.'
 publishDate: '4 November 2026'
-author: 'Tim Teknik Pondasi Mandiri'
+author: 'Tim Teknik Borpile Nusantara'
 category: 'Metode Kerja & K3'
 tags: ['volume beton bore pile', 'overbreak factor', 'pipa tremi', 'ready mix', 'slump beton']
 heroImage: '/images/machine-tremie.webp'
@@ -69,7 +69,7 @@ Berikut acuan kubikasi beton per meter kedalaman dan simulasi kebutuhan riil per
 
 ## Tabel Jangkauan Operasional & Mobilisasi Rig Se-Indonesia
 
-Pondasi Mandiri didukung jaringan batching plant mitra terpercaya dan armada staging tiang bor pile mandiri di seluruh wilayah operasional Indonesia:
+Borpile Nusantara didukung jaringan batching plant mitra terpercaya dan armada staging tiang bor pile mandiri di seluruh wilayah operasional Indonesia:
 
 | Wilayah / Koridor | Kawasan Industri & Proyek Komersial | Kondisi Ketersediaan Ready Mix | Armada Alat Berat Pengecoran | Estimasi Lead Time | Status Layanan |
 |---|---|---|---|---|:---:|
@@ -92,13 +92,13 @@ Getaran vibrator mekanik akan mengaduk beton segar dengan cairan lumpur bentonit
 
 ---
 
-## Solusi Rekayasa Pondasi Dalam Bersama Pondasi Mandiri
+## Solusi Rekayasa Pondasi Dalam Bersama Borpile Nusantara
 
-Hindari risiko beton keropos dan pembengkakan anggaran volume dengan supervisi tim estimator dan armada mandiri Pondasi Mandiri:
+Hindari risiko beton keropos dan pembengkakan anggaran volume dengan supervisi tim estimator dan armada mandiri Borpile Nusantara:
 
 - **Hitung Kebutuhan Proyek**: [Kalkulator Simulasi Tiang & Beton](/kalkulator/)
 - **Peralatan Pengecoran**: [Lihat Spesifikasi Pipa Tremi & Armada](/layanan/)
-- **Konsultasi WhatsApp**: [Hubungi Tim Estimator Lapangan (0851-8300-5070)](https://wa.me/6285183005070?text=Halo%20Pondasi%20Mandiri,%20saya%20ingin%20konsultasi%20estimasi%20volume%20beton%20dan%20harga%20bor%20pile)
+- **Konsultasi WhatsApp**: [Hubungi Tim Estimator Lapangan (0851-8300-5070)](https://wa.me/6285183005070?text=Halo%20Borpile%20Nusantara,%20saya%20ingin%20konsultasi%20estimasi%20volume%20beton%20dan%20harga%20bor%20pile)
 
 ```json
 {

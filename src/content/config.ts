@@ -7,7 +7,7 @@ const artikelCollection = defineCollection({
     seoTitle: z.string().optional(),
     description: z.string(),
     publishDate: z.string(),
-    author: z.string().default('Tim Teknik Pondasi Mandiri'),
+    author: z.string().default('Tim Teknik Borpile Nusantara'),
     category: z.string(),
     tags: z.array(z.string()),
     heroImage: z.string(),

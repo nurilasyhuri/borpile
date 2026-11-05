@@ -3,7 +3,7 @@ title: 'Metode Wash Boring Mini Crane untuk Pengeboran Lahan Akses Sempit di Kaw
 seoTitle: 'Wash Boring Mini Crane Akses Sempit - Panduan Proyek'
 description: 'Panduan teknis pengerjaan bore pile wash boring mini crane di gang 3 meter. Sirkulasi air efisien, stabil, dan tembus tanah lempung.'
 publishDate: '24 Oktober 2026'
-author: 'Tim Teknik Pondasi Mandiri'
+author: 'Tim Teknik Borpile Nusantara'
 category: 'Metode Pondasi'
 tags: ['wash boring', 'mini crane bor pile', 'pengeboran akses sempit', 'bore pile ruko']
 heroImage: '/images/machine-minicrane.webp'
@@ -35,7 +35,7 @@ Mata bor yang berputar akan mencacah tanah dan bebatuan, sementara aliran air be
 
 ## 3. Tahapan SOP Kerja Wash Boring Terstandarisasi
 
-Pondasi Mandiri menerapkan SOP ketat pada setiap lubang bor sistem wash boring:
+Borpile Nusantara menerapkan SOP ketat pada setiap lubang bor sistem wash boring:
 
 1. **Setting Titik Pancang & Bak Sirkulasi:** Penentuan koordinat titik as tiang menggunakan waterpass dan theodolite, dilanjutkan penggalian bak penampung sirkulasi sementara agar air tidak meluap ke badan jalan.
 2. **Pengeboran & Sirkulasi Teratur:** Mesin mini crane mulai mengebor secara vertikal dengan pengawasan kelurusan lubang. Aliran air sirkulasi diatur agar debit lumpur keluar seimbang.
@@ -46,7 +46,7 @@ Pondasi Mandiri menerapkan SOP ketat pada setiap lubang bor sistem wash boring:
 
 ## 4. Antisipasi Gangguan Lingkungan Sekitar
 
-Pondasi Mandiri berkomitmen menjaga kebersihan lingkungan proyek:
+Borpile Nusantara berkomitmen menjaga kebersihan lingkungan proyek:
 * Memasang proteksi terpal di sekeliling area kerja untuk mencegah cipratan air sirkulasi ke dinding tetangga.
 * Menyediakan pompa alkon cadangan dan tangki penampung lumpur mandiri agar saluran drainase umum tetap steril dari endapan tanah.
 

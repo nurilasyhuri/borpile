@@ -3,7 +3,7 @@ title: 'SOP Pengujian Integritas Tiang Pile Integrity Test (PIT) & PDA Test Pond
 seoTitle: 'SOP Uji Integritas Tiang PIT & PDA Test Pondasi Bor Pile'
 description: 'Standar operasional pengujian tiang bor pile: metode Pile Integrity Test (PIT) ASTM D5882, uji beban dinamis PDA ASTM D4945, dan analisis CAPWAP integritas beton.'
 publishDate: '4 November 2026'
-author: 'Tim Teknik Pondasi Mandiri'
+author: 'Tim Teknik Borpile Nusantara'
 category: 'Geoteknik & K3'
 tags: ['pit test', 'pda test', 'integritas tiang', 'uji beban pondasi', 'astm d5882']
 heroImage: '/images/machine-pda.webp'
@@ -60,7 +60,7 @@ Berikut perbandingan teknis antara berbagai metode pengujian mutu pondasi dalam 
 
 ## Tabel Jangkauan Operasional & Mobilisasi Rig Se-Indonesia
 
-Pondasi Mandiri menyediakan layanan rekayasa pondasi lengkap mulai dari pengeboran, fabrikasi tulangan, hingga pengujian PIT & PDA bersertifikat:
+Borpile Nusantara menyediakan layanan rekayasa pondasi lengkap mulai dari pengeboran, fabrikasi tulangan, hingga pengujian PIT & PDA bersertifikat:
 
 | Wilayah / Koridor | Sentra Industri & Infrastruktur | Kesiapan Peralatan Testing Geoteknik | Moda Mobilisasi & Pengiriman | Estimasi Lead Time | Status Layanan |
 |---|---|---|---|---|:---:|
@@ -83,13 +83,13 @@ Tidak bisa sepenuhnya. PIT adalah uji regangan rendah (*low strain*) yang fokus 
 
 ---
 
-## Solusi Rekayasa Pondasi Dalam Bersama Pondasi Mandiri
+## Solusi Rekayasa Pondasi Dalam Bersama Borpile Nusantara
 
 Dapatkan kepastian integritas struktural pondasi proyek Anda dengan peralatan pengeboran presisi dan pengujian geoteknik standar SNI:
 
 - **Konsultasi Estimasi Proyek**: [Kalkulator Simulasi Pondasi Tiang](/kalkulator/)
-- **Layanan Pengeboran & Uji**: [Katalog Lengkap Pondasi Mandiri](/layanan/)
-- **Konsultasi WhatsApp**: [Hubungi Tim Geoteknik & QA/QC (0851-8300-5070)](https://wa.me/6285183005070?text=Halo%20Pondasi%20Mandiri,%20saya%20ingin%20konsultasi%20jadwal%20pengeboran%20dan%20uji%20PIT%20tiang%20bor)
+- **Layanan Pengeboran & Uji**: [Katalog Lengkap Borpile Nusantara](/layanan/)
+- **Konsultasi WhatsApp**: [Hubungi Tim Geoteknik & QA/QC (0851-8300-5070)](https://wa.me/6285183005070?text=Halo%20Borpile%20Nusantara,%20saya%20ingin%20konsultasi%20jadwal%20pengeboran%20dan%20uji%20PIT%20tiang%20bor)
 
 ```json
 {

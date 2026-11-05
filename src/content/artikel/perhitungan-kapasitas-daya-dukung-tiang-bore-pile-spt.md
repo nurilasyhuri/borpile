@@ -3,7 +3,7 @@ title: 'Perhitungan Kapasitas Daya Dukung Tiang Bore Pile Berdasarkan Data N-SPT
 seoTitle: 'Perhitungan Daya Dukung Tiang Bore Pile Data N-SPT Sondir'
 description: 'Panduan teknis menghitung kapasitas daya dukung aksial tiang bore pile rumus Meyerhof, tahanan ujung, friksi selimut, dan faktor keamanan SNI 8460:2017.'
 publishDate: '4 November 2026'
-author: 'Tim Teknik Pondasi Mandiri'
+author: 'Tim Teknik Borpile Nusantara'
 category: 'Geoteknik & Desain'
 tags: ['daya dukung bore pile', 'n-spt tanah', 'rumus meyerhof', 'rekayasa geoteknik', 'pondasi dalam']
 heroImage: '/images/machine-pda.webp'
@@ -63,7 +63,7 @@ Berikut tabel acuan praktis kapasitas beban izin tiang bor ($Q_{all}$) berdasark
 
 ## Tabel Jangkauan Operasional & Mobilisasi Rig Se-Indonesia
 
-Pondasi Mandiri melayani rekayasa pondasi dalam, evaluasi data sondir/SPT, penyediaan armada rotary drilling rig, mini crane, dan jacking pile ke seluruh penjuru Nusantara:
+Borpile Nusantara melayani rekayasa pondasi dalam, evaluasi data sondir/SPT, penyediaan armada rotary drilling rig, mini crane, dan jacking pile ke seluruh penjuru Nusantara:
 
 | Wilayah / Koridor | Kawasan & Karakteristik Geologi Lahan | Armada & Alat Berat Staging | Moda Mobilisasi Logistik | Estimasi Lead Time | Status Layanan |
 |---|---|---|---|---|:---:|
@@ -86,13 +86,13 @@ Untuk mengoptimalkan tahanan ujung ($Q_p$), dasar tiang bor pile disyaratkan mas
 
 ---
 
-## Solusi Rekayasa Pondasi Dalam Bersama Pondasi Mandiri
+## Solusi Rekayasa Pondasi Dalam Bersama Borpile Nusantara
 
 Pastikan struktur bangunan Anda berdiri kokoh di atas perhitungan geoteknik yang presisi dan armada alat berat milik sendiri:
 
 - **Simulasi Biaya & Titik Tiang**: [Kalkulator Pondasi Bor Pile](/kalkulator/)
 - **Layanan Pengeboran Lengkap**: [Lihat Spesifikasi Armada Rig & Mini Crane](/layanan/)
-- **Konsultasi WhatsApp**: [Hubungi Tim Geoteknik Estimator (0851-8300-5070)](https://wa.me/6285183005070?text=Halo%20Pondasi%20Mandiri,%20saya%20ingin%20konsultasi%20evaluasi%20data%20tanah%20sondir%20dan%20kebutuhan%20bor%20pile)
+- **Konsultasi WhatsApp**: [Hubungi Tim Geoteknik Estimator (0851-8300-5070)](https://wa.me/6285183005070?text=Halo%20Borpile%20Nusantara,%20saya%20ingin%20konsultasi%20evaluasi%20data%20tanah%20sondir%20dan%20kebutuhan%20bor%20pile)
 
 ```json
 {

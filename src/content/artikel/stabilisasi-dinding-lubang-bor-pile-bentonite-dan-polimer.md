@@ -3,7 +3,7 @@ title: 'Stabilisasi Dinding Lubang Bor Pile: Penggunaan Cairan Bentonite vs Poli
 seoTitle: 'Stabilisasi Lubang Bor Pile Bentonite vs Polimer Sintetis'
 description: 'Panduan teknis stabilisasi dinding lubang tiang bor pile: perbandingan slurry bentonite vs polimer sintetis, uji corong Marsh, sand content, dan izin disposal.'
 publishDate: '4 November 2026'
-author: 'Tim Teknik Pondasi Mandiri'
+author: 'Tim Teknik Borpile Nusantara'
 category: 'Inovasi Alat & Kimia'
 tags: ['bentonite slurry', 'polimer sintetis', 'stabilisasi lubang bor', 'sedot lumpur', 'viskositas marsh']
 heroImage: '/images/machine-vacuum.webp'
@@ -61,7 +61,7 @@ Berikut matriks komparasi teknis dan ekonomis kedua bahan stabilisator fluida ti
 
 ## Tabel Jangkauan Operasional & Mobilisasi Rig Se-Indonesia
 
-Pondasi Mandiri memiliki instalasi batching slurry, peralatan uji lab lumpur lapangan, serta armada truk tangki vacuum sedot lumpur berizin resmi:
+Borpile Nusantara memiliki instalasi batching slurry, peralatan uji lab lumpur lapangan, serta armada truk tangki vacuum sedot lumpur berizin resmi:
 
 | Wilayah / Koridor | Kawasan Industri & Lahan Basah | Fasilitas Slurry & Pembuangan Limbah | Logistik & Armada Mobilisasi | Estimasi Lead Time | Status Layanan |
 |---|---|---|---|---|:---:|
@@ -84,13 +84,13 @@ Gunakan alat uji **Sand Content Kit (ASTM D4381)** yang terdiri dari tabung ukur
 
 ---
 
-## Solusi Rekayasa Pondasi Dalam Bersama Pondasi Mandiri
+## Solusi Rekayasa Pondasi Dalam Bersama Borpile Nusantara
 
-Pastikan stabilitas lubang bor dan kebersihan lingkungan proyek Anda terkelola profesional bersama armada mandiri Pondasi Mandiri:
+Pastikan stabilitas lubang bor dan kebersihan lingkungan proyek Anda terkelola profesional bersama armada mandiri Borpile Nusantara:
 
-- **Simulasi Kebutuhan Tiang Bor**: [Kalkulator Pondasi Mandiri](/kalkulator/)
+- **Simulasi Kebutuhan Tiang Bor**: [Kalkulator Borpile Nusantara](/kalkulator/)
 - **Layanan Sedot Lumpur & Pembersihan**: [Armada Truk Tangki Vacuum Mandiri](/layanan/)
-- **Konsultasi WhatsApp**: [Hubungi Tim Geoteknik (0851-8300-5070)](https://wa.me/6285183005070?text=Halo%20Pondasi%20Mandiri,%20saya%20ingin%20konsultasi%20stabilisasi%20lubang%20bor%20dan%20penanganan%20lumpur)
+- **Konsultasi WhatsApp**: [Hubungi Tim Geoteknik (0851-8300-5070)](https://wa.me/6285183005070?text=Halo%20Borpile%20Nusantara,%20saya%20ingin%20konsultasi%20stabilisasi%20lubang%20bor%20dan%20penanganan%20lumpur)
 
 ```json
 {

@@ -3,7 +3,7 @@ title: 'Metode Kerja Bore Pile Hydraulic Rotary Rig untuk Konstruksi Gedung & Je
 seoTitle: 'Metode Bore Pile Hydraulic Rotary Rig Gedung & Jembatan'
 description: 'Spesifikasi dan metode pengeboran tiang bor hydraulic rotary rig torsi tinggi, sistem kelly bar teleskopik, stabilitas casing, dan kapasitas diameter hingga 150 cm.'
 publishDate: '4 November 2026'
-author: 'Tim Teknik Pondasi Mandiri'
+author: 'Tim Teknik Borpile Nusantara'
 category: 'Inovasi Alat & Rig'
 tags: ['rotary drilling rig', 'hydraulic rig', 'bore pile gedung', 'kelly bar', 'pondasi jembatan']
 heroImage: '/images/machine-rig.webp'
@@ -44,9 +44,9 @@ Pada lapisan tanah lunak hingga sedang, rig beroperasi menggunakan sistem *frict
 
 ---
 
-## 2. Tabel Spesifikasi Unit Hydraulic Rotary Rig Pondasi Mandiri
+## 2. Tabel Spesifikasi Unit Hydraulic Rotary Rig Borpile Nusantara
 
-Pondasi Mandiri mengoperasikan armada rotary drilling rig milik sendiri yang siap dimobilisasi ke berbagai proyek strategis:
+Borpile Nusantara mengoperasikan armada rotary drilling rig milik sendiri yang siap dimobilisasi ke berbagai proyek strategis:
 
 | Parameter Kinerja | Rig Kelas Kompak (30–35 Ton) | Rig Kelas Menengah (45–50 Ton) | Rig Heavy Duty (60–65 Ton) |
 |---|---|---|---|
@@ -62,7 +62,7 @@ Pondasi Mandiri mengoperasikan armada rotary drilling rig milik sendiri yang sia
 
 ## Tabel Jangkauan Operasional & Mobilisasi Rig Se-Indonesia
 
-Armada rotary drilling rig Pondasi Mandiri didukung izin angkutan alat berat dan truk tronton lowbed bersertifikasi keselamatan:
+Armada rotary drilling rig Borpile Nusantara didukung izin angkutan alat berat dan truk tronton lowbed bersertifikasi keselamatan:
 
 | Wilayah / Koridor | Sektor Proyek & Tantangan Medan | Armada Rig Rekomendasi | Logistik Mobilisasi Alat | Estimasi Lead Time | Status Operasional |
 |---|---|---|---|---|:---:|
@@ -85,13 +85,13 @@ Pada formasi tanah pasir berair atau rawa, rotary rig bekerja berpasangan dengan
 
 ---
 
-## Solusi Rekayasa Pondasi Dalam Bersama Pondasi Mandiri
+## Solusi Rekayasa Pondasi Dalam Bersama Borpile Nusantara
 
-Konsultasikan desain struktur pondasi gedung dan jembatan Anda bersama tim ahli rekayasa Pondasi Mandiri:
+Konsultasikan desain struktur pondasi gedung dan jembatan Anda bersama tim ahli rekayasa Borpile Nusantara:
 
 - **Hitung Perkiraan Dimensi & Biaya**: [Kalkulator Simulasi Pondasi](/kalkulator/)
-- **Katalog Armada Alat Berat**: [Spesifikasi Lengkap Unit Rig Pondasi Mandiri](/layanan/)
-- **Konsultasi WhatsApp**: [Hubungi Tim Alat Berat Lapangan (0851-8300-5070)](https://wa.me/6285183005070?text=Halo%20Pondasi%20Mandiri,%20saya%20ingin%20konsultasi%20sewa%20armada%20hydraulic%20rotary%20rig%20untuk%20proyek%20gedung)
+- **Katalog Armada Alat Berat**: [Spesifikasi Lengkap Unit Rig Borpile Nusantara](/layanan/)
+- **Konsultasi WhatsApp**: [Hubungi Tim Alat Berat Lapangan (0851-8300-5070)](https://wa.me/6285183005070?text=Halo%20Borpile%20Nusantara,%20saya%20ingin%20konsultasi%20sewa%20armada%20hydraulic%20rotary%20rig%20untuk%20proyek%20gedung)
 
 ```json
 {

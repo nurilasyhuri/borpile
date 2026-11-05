@@ -3,7 +3,7 @@ title: 'Pentingnya Uji Sondir Tanah Sebelum Memulai Proyek Bor Pile'
 seoTitle: 'Pentingnya Uji Sondir Tanah Sebelum Bor Pile - Panduan CPT'
 description: 'Panduan uji sondir CPT dan N-SPT untuk pondasi bor pile. Mengetahui elevasi tanah keras, daya dukung tanah, dan mencegah kegagalan struktur.'
 publishDate: '27 Oktober 2026'
-author: 'Tim Teknik Pondasi Mandiri'
+author: 'Tim Teknik Borpile Nusantara'
 category: 'Geoteknik & Pengujian'
 tags: ['uji sondir', 'sondir bor pile', 'data cpt tanah', 'uji geoteknik']
 heroImage: '/images/machine-pda.webp'
@@ -57,7 +57,7 @@ Berdasarkan laporan hasil uji sondir, konsultan struktur akan menentukan:
 
 ## Layanan Analisis Sondir & Bor Pile Indonesia
 
-Pondasi Mandiri memiliki tim teknis berpengalaman yang siap membantu membaca dan mengevaluasi hasil laporan sondir Anda secara profesional sebelum penawaran teknis diterbitkan.
+Borpile Nusantara memiliki tim teknis berpengalaman yang siap membantu membaca dan mengevaluasi hasil laporan sondir Anda secara profesional sebelum penawaran teknis diterbitkan.
 
 * **Jangkauan Layanan:** Konsultasi dan eksekusi proyek di seluruh Indonesia
 * **WhatsApp Konsultasi Cepat:** 0851-8300-5070

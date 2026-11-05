@@ -3,7 +3,7 @@ title: 'Standar Pengecoran Tiang Bor Sistem Pipa Tremi: Mencegah Beton Keropos d
 seoTitle: 'Standar Pengecoran Tremi Bore Pile - Mutu Beton SNI'
 description: 'Prosedur pengecoran tiang bor pile metode pipa tremi berstandar SNI. Mencegah segregasi campuran beton ready mix dan rongga udara di dasar tiang.'
 publishDate: '22 Oktober 2026'
-author: 'Tim Teknik Pondasi Mandiri'
+author: 'Tim Teknik Borpile Nusantara'
 category: 'Standar Pengecoran'
 tags: ['pengecoran pipa tremi', 'beton bore pile sni', 'slump test ready mix', 'metode tremi']
 heroImage: '/images/machine-tremie.webp'
@@ -48,9 +48,9 @@ Beberapa pelaksana non-profesional kerap menuangkan adukan beton langsung dari p
 
 ---
 
-## 4. Jaminan Mutu Pengecoran Pondasi Mandiri
+## 4. Jaminan Mutu Pengecoran Borpile Nusantara
 
-Pondasi Mandiri memastikan setiap tahapan pengecoran diawasi secara cermat:
+Borpile Nusantara memastikan setiap tahapan pengecoran diawasi secara cermat:
 * Melakukan pengujian *Slump Test* di depan pengawas lapangan untuk setiap truk mixer yang tiba di lokasi proyek.
 * Menggunakan pipa tremi baja sambungan drat presisi dan o-ring karet anti bocor.
 * Pengecoran dilakukan secara kontinyu tanpa jeda waktu lama (*monolithic pour*) hingga kepala tiang meluap di atas elevasi batas rencana (*overpouring*) minimal 50 cm untuk memastikan lapisan beton teratas bebas dari kontaminasi lumpur.
@@ -59,7 +59,7 @@ Pondasi Mandiri memastikan setiap tahapan pengecoran diawasi secara cermat:
 
 ## Konsultasi Standar Struktur Pondasi Indonesia
 
-Dapatkan jaminan mutu struktur tiang bor berstandar teknik SNI untuk proyek Anda bersama tim Pondasi Mandiri di seluruh Indonesia.
+Dapatkan jaminan mutu struktur tiang bor berstandar teknik SNI untuk proyek Anda bersama tim Borpile Nusantara di seluruh Indonesia.
 
 * **Mobilisasi Peralatan:** Pipa tremi, casing baja, dan alat pendukung siap kirim ke berbagai lokasi proyek
 * **Hotline WhatsApp Cepat:** 0851-8300-5070

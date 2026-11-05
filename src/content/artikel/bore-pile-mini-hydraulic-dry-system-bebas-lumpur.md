@@ -3,7 +3,7 @@ title: 'Bore Pile Mini Hydraulic Dry System: Solusi Pengeboran Bersih Tanpa Lump
 seoTitle: 'Bore Pile Dry System Bebas Lumpur - Metode Putar Kering'
 description: 'Keunggulan metode bore pile mini hydraulic sistem kering. Pengeboran bersih tanpa ceceran lumpur untuk area basement, gudang, dan ruko aktif.'
 publishDate: '26 Oktober 2026'
-author: 'Tim Teknik Pondasi Mandiri'
+author: 'Tim Teknik Borpile Nusantara'
 category: 'Inovasi Alat'
 tags: ['bore pile dry system', 'mini hydraulic', 'metode kering', 'pengeboran bersih']
 heroImage: '/images/machine-minihydraulic.webp'
@@ -36,9 +36,9 @@ Berbeda dengan sistem *wash boring* yang membutuhkan kolam sirkulasi (*mud pit*)
 
 ---
 
-## 3. Spesifikasi Teknis Unit Mini Hydraulic Pondasi Mandiri
+## 3. Spesifikasi Teknis Unit Mini Hydraulic Borpile Nusantara
 
-Pondasi Mandiri mengoperasikan unit mesin *Mini Hydraulic Rig Compact* dengan spesifikasi kerja:
+Borpile Nusantara mengoperasikan unit mesin *Mini Hydraulic Rig Compact* dengan spesifikasi kerja:
 * **Pilihan Diameter Tiang:** 35 cm, 40 cm, 50 cm, 60 cm, 80 cm, hingga 100 cm.
 * **Kedalaman Efektif:** Mampu menjangkau kedalaman 12 meter hingga 20 meter pada formasi tanah lempung kering dan pasir padat.
 * **Tinggi Mast / Menara:** Dilengkapi tiang mast teleskopik fleksibel yang bisa disesuaikan untuk ruangan beratap rendah (*low headroom*) minimal 4,5–5 meter.
@@ -55,7 +55,7 @@ Pondasi Mandiri mengoperasikan unit mesin *Mini Hydraulic Rig Compact* dengan sp
 
 ## Solusi Pengeboran Bersih Indonesia
 
-Pastikan proyek konstruksi Anda tetap higienis dan efisien dengan armada *Mini Hydraulic Dry System* dari Pondasi Mandiri di seluruh Indonesia.
+Pastikan proyek konstruksi Anda tetap higienis dan efisien dengan armada *Mini Hydraulic Dry System* dari Borpile Nusantara di seluruh Indonesia.
 
 * **Mobilisasi Armada:** Siap kirim ke berbagai lokasi proyek di seluruh Indonesia
 * **Hotline WhatsApp Resmi:** 0851-8300-5070
